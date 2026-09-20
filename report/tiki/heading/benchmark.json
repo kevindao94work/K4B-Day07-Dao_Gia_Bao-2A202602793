@@ -1,0 +1,757 @@
+{
+  "created_at": "2026-09-20T05:06:13.664588+00:00",
+  "strategy": "HeadingChunker",
+  "strategy_parameters": {
+    "chunk_size": 800
+  },
+  "embedding_provider": "local",
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "semantic_embeddings": true,
+  "corpus_sha256": {
+    "tiki-doi-tra-30-ngay.md": "518846406bdb15ac7697bf0365e5b1027cb24f9f1447847d633114c89a3ba1a4",
+    "tiki-doi-tra-365.md": "7dd8d0f425bc6b6b168e24368da91c0b27fec83ce19cee3a0068b9d05bb64173",
+    "tiki-dropship-doi-tra-bao-hanh.md": "90e587bdd80860d1803fb62fff62cb71e747a3f17fcdaea5df43dbf773153e27",
+    "tiki-faq-doi-tra-bao-hanh.md": "c4034fb2e799206e746c298c0756a9aad2d0aa9680c4d0e27abd18306594878d",
+    "tiki-fbt-doi-tra-bao-hanh.md": "edb51cea3112300836dcb19cd7fc20877e6ff2a490d6d756abc3fa093adaa405",
+    "tiki-ngon-doi-tra-boi-thuong.md": "aee13cefa30a72f489019945013137fd1d7a49abd9e2437ceefa3dbb81b6c25d",
+    "tiki-sd-doi-tra-bao-hanh.md": "477bfecd6bfd9f05ca9bd6c219b601f94352aa35e40843c82b3d3b868f8d4c7e",
+    "tiki-theo-doi-rma.md": "489f5741452bd3e606eac5e8fcff1c63f0d711460d110cdb19e38a1ef7a1ec8c"
+  },
+  "queries_sha256": "89407112184779bba60b06b7c4c975fd58991b9f1cf6b80b375a9b58d411cc42",
+  "python_version": "3.12.7",
+  "packages": {
+    "sentence-transformers": "5.6.0",
+    "transformers": "5.17.0",
+    "torch": "2.6.0"
+  },
+  "file_count": 8,
+  "chunk_count": 24,
+  "chunks_per_file": {
+    "tiki-doi-tra-30-ngay": 1,
+    "tiki-doi-tra-365": 3,
+    "tiki-dropship-doi-tra-bao-hanh": 4,
+    "tiki-faq-doi-tra-bao-hanh": 5,
+    "tiki-fbt-doi-tra-bao-hanh": 2,
+    "tiki-ngon-doi-tra-boi-thuong": 3,
+    "tiki-sd-doi-tra-bao-hanh": 3,
+    "tiki-theo-doi-rma": 3
+  },
+  "cache_hits": 31,
+  "cache_misses": 0,
+  "queries": [
+    {
+      "id": "Q1",
+      "query": "Chương trình đổi trả 365 ngày áp dụng cho ngành hàng và nhà bán nào?",
+      "gold_answer": "Áp dụng cho ngành Điện gia dụng và Thiết bị số thuộc nhà bán Tiki Trading.",
+      "source_doc_id": "tiki-doi-tra-365",
+      "source_heading": "Phạm vi và thời điểm áp dụng",
+      "evidence_quote": "Áp dụng cho ngành hàng **Điện gia dụng** và **Thiết bị số** thuộc nhà bán **Tiki Trading**.",
+      "metadata_filter": {
+        "audience": "buyer"
+      },
+      "evidence_chunk_ids": [
+        "tiki-doi-tra-365#0"
+      ],
+      "top3": [
+        {
+          "id": "tiki-doi-tra-365#1",
+          "content": "# Chương trình đổi trả 365 ngày\n## Điều kiện và quyền lợi\n\nVới đơn hàng được xác định có lỗi kỹ thuật do nhà sản xuất, khách hàng có thể được đổi trả miễn phí tận nhà hoặc hoàn tiền 100% trong vòng **365 ngày kể từ ngày đặt hàng**.",
+          "metadata": {
+            "doc_id": "tiki-doi-tra-365",
+            "title": "Chương trình đổi trả 365",
+            "source_url": "https://tiki.vn/blog/chuong-trinh-doi-tra-365/",
+            "retrieved_at": "2026-09-20",
+            "document_version": "2023-11-10",
+            "audience": "buyer",
+            "category": "returns-policy",
+            "language": "vi",
+            "platform": "tiki",
+            "market": "VN",
+            "channel": "marketplace",
+            "source_scope": "Phạm vi, điều kiện, ngoại lệ và bằng chứng của chương trình đổi trả 365.",
+            "chunk_index": 1,
+            "file_path": "data/tiki-doi-tra/tiki-doi-tra-365.md"
+          },
+          "score": 0.7769127536282864
+        },
+        {
+          "id": "tiki-doi-tra-365#0",
+          "content": "# Chương trình đổi trả 365 ngày\n## Phạm vi và thời điểm áp dụng\n\n- Chương trình áp dụng từ **01/11/2023**.\n- Áp dụng cho ngành hàng **Điện gia dụng** và **Thiết bị số** thuộc nhà bán **Tiki Trading**.\n- Hình thức xử lý: **đổi trả hoặc hoàn tiền**.",
+          "metadata": {
+            "doc_id": "tiki-doi-tra-365",
+            "title": "Chương trình đổi trả 365",
+            "source_url": "https://tiki.vn/blog/chuong-trinh-doi-tra-365/",
+            "retrieved_at": "2026-09-20",
+            "document_version": "2023-11-10",
+            "audience": "buyer",
+            "category": "returns-policy",
+            "language": "vi",
+            "platform": "tiki",
+            "market": "VN",
+            "channel": "marketplace",
+            "source_scope": "Phạm vi, điều kiện, ngoại lệ và bằng chứng của chương trình đổi trả 365.",
+            "chunk_index": 0,
+            "file_path": "data/tiki-doi-tra/tiki-doi-tra-365.md"
+          },
+          "score": 0.761835093572142
+        },
+        {
+          "id": "tiki-doi-tra-365#2",
+          "content": "# Chương trình đổi trả 365 ngày\n## Ngoại lệ và bằng chứng\n\n- Tiki không nhận đổi trả nếu trong vòng **7 ngày kể từ ngày nhận hàng**, sản phẩm được phát hiện lỗi kỹ thuật nhưng đã qua sửa chữa. Nếu sản phẩm đủ điều kiện, Tiki chỉ hỗ trợ bảo hành.\n- Khi đối chiếu hoặc khiếu nại, khách hàng cần chuẩn bị video mở kiện từ bên ngoài đến khi kiểm tra sản phẩm; ảnh sản phẩm lỗi; ảnh tem kiện hiển thị mã đơn; và ảnh tình trạng hộp/thùng cùng sản phẩm bên trong.",
+          "metadata": {
+            "doc_id": "tiki-doi-tra-365",
+            "title": "Chương trình đổi trả 365",
+            "source_url": "https://tiki.vn/blog/chuong-trinh-doi-tra-365/",
+            "retrieved_at": "2026-09-20",
+            "document_version": "2023-11-10",
+            "audience": "buyer",
+            "category": "returns-policy",
+            "language": "vi",
+            "platform": "tiki",
+            "market": "VN",
+            "channel": "marketplace",
+            "source_scope": "Phạm vi, điều kiện, ngoại lệ và bằng chứng của chương trình đổi trả 365.",
+            "chunk_index": 2,
+            "file_path": "data/tiki-doi-tra/tiki-doi-tra-365.md"
+          },
+          "score": 0.4550385862873759
+        }
+      ],
+      "unfiltered_top3": [
+        {
+          "id": "tiki-doi-tra-365#1",
+          "content": "# Chương trình đổi trả 365 ngày\n## Điều kiện và quyền lợi\n\nVới đơn hàng được xác định có lỗi kỹ thuật do nhà sản xuất, khách hàng có thể được đổi trả miễn phí tận nhà hoặc hoàn tiền 100% trong vòng **365 ngày kể từ ngày đặt hàng**.",
+          "metadata": {
+            "doc_id": "tiki-doi-tra-365",
+            "title": "Chương trình đổi trả 365",
+            "source_url": "https://tiki.vn/blog/chuong-trinh-doi-tra-365/",
+            "retrieved_at": "2026-09-20",
+            "document_version": "2023-11-10",
+            "audience": "buyer",
+            "category": "returns-policy",
+            "language": "vi",
+            "platform": "tiki",
+            "market": "VN",
+            "channel": "marketplace",
+            "source_scope": "Phạm vi, điều kiện, ngoại lệ và bằng chứng của chương trình đổi trả 365.",
+            "chunk_index": 1,
+            "file_path": "data/tiki-doi-tra/tiki-doi-tra-365.md"
+          },
+          "score": 0.7769127536282864
+        },
+        {
+          "id": "tiki-doi-tra-365#0",
+          "content": "# Chương trình đổi trả 365 ngày\n## Phạm vi và thời điểm áp dụng\n\n- Chương trình áp dụng từ **01/11/2023**.\n- Áp dụng cho ngành hàng **Điện gia dụng** và **Thiết bị số** thuộc nhà bán **Tiki Trading**.\n- Hình thức xử lý: **đổi trả hoặc hoàn tiền**.",
+          "metadata": {
+            "doc_id": "tiki-doi-tra-365",
+            "title": "Chương trình đổi trả 365",
+            "source_url": "https://tiki.vn/blog/chuong-trinh-doi-tra-365/",
+            "retrieved_at": "2026-09-20",
+            "document_version": "2023-11-10",
+            "audience": "buyer",
+            "category": "returns-policy",
+            "language": "vi",
+            "platform": "tiki",
+            "market": "VN",
+            "channel": "marketplace",
+            "source_scope": "Phạm vi, điều kiện, ngoại lệ và bằng chứng của chương trình đổi trả 365.",
+            "chunk_index": 0,
+            "file_path": "data/tiki-doi-tra/tiki-doi-tra-365.md"
+          },
+          "score": 0.761835093572142
+        },
+        {
+          "id": "tiki-faq-doi-tra-bao-hanh#1",
+          "content": "# Câu hỏi thường gặp về đổi trả và bảo hành\n## Phản hồi, bảo hành và chứng cứ\n\n- Khi từ chối yêu cầu, nhà bán phải cung cấp bằng chứng hợp lệ: tài liệu về chất lượng/tiêu chuẩn/tính năng, biên bản bàn giao hoặc đồng kiểm, ảnh/video đóng gói và khui mở hàng hoàn, hoặc biên bản thẩm định/từ chối của hãng.\n- Tiki khuyến khích nhà bán lưu video đóng gói tối thiểu **45 ngày**: 30 ngày sau khi giao thành công cộng thời gian luân chuyển và thu hồi.",
+          "metadata": {
+            "doc_id": "tiki-faq-doi-tra-bao-hanh",
+            "title": "Câu hỏi thường gặp đổi trả bảo hành",
+            "source_url": "https://hocvien.tiki.vn/faq/cau-hoi-thuong-gap-ve-xu-ly-doi-tra-bao-hanh/",
+            "retrieved_at": "2026-09-20",
+            "document_version": "not-stated",
+            "audience": "seller",
+            "category": "returns-warranty",
+            "language": "vi",
+            "platform": "tiki",
+            "market": "VN",
+            "channel": "seller-center",
+            "source_scope": "FAQ nhà bán: phản hồi, bảo hành, chứng cứ, hoàn tiền nhanh và hàng NGON.",
+            "chunk_index": 1,
+            "file_path": "data/tiki-doi-tra/tiki-faq-doi-tra-bao-hanh.md"
+          },
+          "score": 0.5083507657717142
+        }
+      ]
+    },
+    {
+      "id": "Q2",
+      "query": "Khi từ chối yêu cầu đổi trả hoặc bảo hành, nhà bán Dropship cần cung cấp những loại bằng chứng hợp lệ nào?",
+      "gold_answer": "Biên bản bàn giao/đồng kiểm; ảnh hoặc video đóng gói/khui mở; hoặc biên bản thẩm định của hãng.",
+      "source_doc_id": "tiki-dropship-doi-tra-bao-hanh",
+      "source_heading": "Điều kiện và trách nhiệm",
+      "evidence_quote": "Bằng chứng có thể gồm biên bản bàn giao/đồng kiểm, ảnh hoặc video đóng gói/khui mở, hay biên bản thẩm định của hãng.",
+      "metadata_filter": {},
+      "evidence_chunk_ids": [
+        "tiki-dropship-doi-tra-bao-hanh#0"
+      ],
+      "top3": [
+        {
+          "id": "tiki-dropship-doi-tra-bao-hanh#1",
+          "content": "# Quy trình đổi trả và bảo hành cho nhà bán Dropship\n## Điều kiện và trách nhiệm\n\n- Nếu Tiki xác định lỗi do nhà bán, nhà bán buộc phải đồng ý xử lý. Nếu lỗi không do nhà bán, nhà bán đóng gói và tự gửi hàng lại cho khách hàng, chịu chi phí vận chuyển.",
+          "metadata": {
+            "doc_id": "tiki-dropship-doi-tra-bao-hanh",
+            "title": "Hướng dẫn đổi trả bảo hành mô hình Dropship",
+            "source_url": "https://hocvien.tiki.vn/faq/huong-dan-quy-trinh-xu-ly-doi-tra-bao-hanh-mo-hinh-dropship/",
+            "retrieved_at": "2026-09-20",
+            "document_version": "not-stated",
+            "audience": "seller",
+            "category": "returns-warranty",
+            "language": "vi",
+            "platform": "tiki",
+            "market": "VN",
+            "channel": "seller-center",
+            "source_scope": "Quy trình đổi trả, bảo hành và thời hạn của nhà bán Dropship.",
+            "chunk_index": 1,
+            "file_path": "data/tiki-doi-tra/tiki-dropship-doi-tra-bao-hanh.md"
+          },
+          "score": 0.6538606796590477
+        },
+        {
+          "id": "tiki-faq-doi-tra-bao-hanh#1",
+          "content": "# Câu hỏi thường gặp về đổi trả và bảo hành\n## Phản hồi, bảo hành và chứng cứ\n\n- Khi từ chối yêu cầu, nhà bán phải cung cấp bằng chứng hợp lệ: tài liệu về chất lượng/tiêu chuẩn/tính năng, biên bản bàn giao hoặc đồng kiểm, ảnh/video đóng gói và khui mở hàng hoàn, hoặc biên bản thẩm định/từ chối của hãng.\n- Tiki khuyến khích nhà bán lưu video đóng gói tối thiểu **45 ngày**: 30 ngày sau khi giao thành công cộng thời gian luân chuyển và thu hồi.",
+          "metadata": {
+            "doc_id": "tiki-faq-doi-tra-bao-hanh",
+            "title": "Câu hỏi thường gặp đổi trả bảo hành",
+            "source_url": "https://hocvien.tiki.vn/faq/cau-hoi-thuong-gap-ve-xu-ly-doi-tra-bao-hanh/",
+            "retrieved_at": "2026-09-20",
+            "document_version": "not-stated",
+            "audience": "seller",
+            "category": "returns-warranty",
+            "language": "vi",
+            "platform": "tiki",
+            "market": "VN",
+            "channel": "seller-center",
+            "source_scope": "FAQ nhà bán: phản hồi, bảo hành, chứng cứ, hoàn tiền nhanh và hàng NGON.",
+            "chunk_index": 1,
+            "file_path": "data/tiki-doi-tra/tiki-faq-doi-tra-bao-hanh.md"
+          },
+          "score": 0.6333310648551007
+        },
+        {
+          "id": "tiki-dropship-doi-tra-bao-hanh#2",
+          "content": "# Quy trình đổi trả và bảo hành cho nhà bán Dropship\n## Luồng xử lý C-return\n\n1. Tiki tiếp nhận, kiểm tra yêu cầu và tạo C-return; đồng thời thông báo tại Seller Center và email của nhà bán.\n2. Với hàng không thể thu hồi, nhà bán kiểm tra và xác nhận giải pháp trên hệ thống. Với hàng thu hồi, Tiki thu hồi từ khách hàng và hoàn trả cho nhà bán.\n3. Nhà bán kiểm/đếm hàng, trao đổi với khách hàng nếu cần và phản hồi Đồng ý hoặc Từ chối.\n4. Khi đồng ý, Tiki xử lý hoàn tiền, tạo đơn đổi mới hoặc ghi nhận nhà bán chịu trách nhiệm bảo hành. Khi từ chối, Tiki yêu cầu nhà bán trả hàng cho khách hàng.",
+          "metadata": {
+            "doc_id": "tiki-dropship-doi-tra-bao-hanh",
+            "title": "Hướng dẫn đổi trả bảo hành mô hình Dropship",
+            "source_url": "https://hocvien.tiki.vn/faq/huong-dan-quy-trinh-xu-ly-doi-tra-bao-hanh-mo-hinh-dropship/",
+            "retrieved_at": "2026-09-20",
+            "document_version": "not-stated",
+            "audience": "seller",
+            "category": "returns-warranty",
+            "language": "vi",
+            "platform": "tiki",
+            "market": "VN",
+            "channel": "seller-center",
+            "source_scope": "Quy trình đổi trả, bảo hành và thời hạn của nhà bán Dropship.",
+            "chunk_index": 2,
+            "file_path": "data/tiki-doi-tra/tiki-dropship-doi-tra-bao-hanh.md"
+          },
+          "score": 0.5764588615043815
+        }
+      ],
+      "unfiltered_top3": [
+        {
+          "id": "tiki-dropship-doi-tra-bao-hanh#1",
+          "content": "# Quy trình đổi trả và bảo hành cho nhà bán Dropship\n## Điều kiện và trách nhiệm\n\n- Nếu Tiki xác định lỗi do nhà bán, nhà bán buộc phải đồng ý xử lý. Nếu lỗi không do nhà bán, nhà bán đóng gói và tự gửi hàng lại cho khách hàng, chịu chi phí vận chuyển.",
+          "metadata": {
+            "doc_id": "tiki-dropship-doi-tra-bao-hanh",
+            "title": "Hướng dẫn đổi trả bảo hành mô hình Dropship",
+            "source_url": "https://hocvien.tiki.vn/faq/huong-dan-quy-trinh-xu-ly-doi-tra-bao-hanh-mo-hinh-dropship/",
+            "retrieved_at": "2026-09-20",
+            "document_version": "not-stated",
+            "audience": "seller",
+            "category": "returns-warranty",
+            "language": "vi",
+            "platform": "tiki",
+            "market": "VN",
+            "channel": "seller-center",
+            "source_scope": "Quy trình đổi trả, bảo hành và thời hạn của nhà bán Dropship.",
+            "chunk_index": 1,
+            "file_path": "data/tiki-doi-tra/tiki-dropship-doi-tra-bao-hanh.md"
+          },
+          "score": 0.6538606796590477
+        },
+        {
+          "id": "tiki-faq-doi-tra-bao-hanh#1",
+          "content": "# Câu hỏi thường gặp về đổi trả và bảo hành\n## Phản hồi, bảo hành và chứng cứ\n\n- Khi từ chối yêu cầu, nhà bán phải cung cấp bằng chứng hợp lệ: tài liệu về chất lượng/tiêu chuẩn/tính năng, biên bản bàn giao hoặc đồng kiểm, ảnh/video đóng gói và khui mở hàng hoàn, hoặc biên bản thẩm định/từ chối của hãng.\n- Tiki khuyến khích nhà bán lưu video đóng gói tối thiểu **45 ngày**: 30 ngày sau khi giao thành công cộng thời gian luân chuyển và thu hồi.",
+          "metadata": {
+            "doc_id": "tiki-faq-doi-tra-bao-hanh",
+            "title": "Câu hỏi thường gặp đổi trả bảo hành",
+            "source_url": "https://hocvien.tiki.vn/faq/cau-hoi-thuong-gap-ve-xu-ly-doi-tra-bao-hanh/",
+            "retrieved_at": "2026-09-20",
+            "document_version": "not-stated",
+            "audience": "seller",
+            "category": "returns-warranty",
+            "language": "vi",
+            "platform": "tiki",
+            "market": "VN",
+            "channel": "seller-center",
+            "source_scope": "FAQ nhà bán: phản hồi, bảo hành, chứng cứ, hoàn tiền nhanh và hàng NGON.",
+            "chunk_index": 1,
+            "file_path": "data/tiki-doi-tra/tiki-faq-doi-tra-bao-hanh.md"
+          },
+          "score": 0.6333310648551007
+        },
+        {
+          "id": "tiki-dropship-doi-tra-bao-hanh#2",
+          "content": "# Quy trình đổi trả và bảo hành cho nhà bán Dropship\n## Luồng xử lý C-return\n\n1. Tiki tiếp nhận, kiểm tra yêu cầu và tạo C-return; đồng thời thông báo tại Seller Center và email của nhà bán.\n2. Với hàng không thể thu hồi, nhà bán kiểm tra và xác nhận giải pháp trên hệ thống. Với hàng thu hồi, Tiki thu hồi từ khách hàng và hoàn trả cho nhà bán.\n3. Nhà bán kiểm/đếm hàng, trao đổi với khách hàng nếu cần và phản hồi Đồng ý hoặc Từ chối.\n4. Khi đồng ý, Tiki xử lý hoàn tiền, tạo đơn đổi mới hoặc ghi nhận nhà bán chịu trách nhiệm bảo hành. Khi từ chối, Tiki yêu cầu nhà bán trả hàng cho khách hàng.",
+          "metadata": {
+            "doc_id": "tiki-dropship-doi-tra-bao-hanh",
+            "title": "Hướng dẫn đổi trả bảo hành mô hình Dropship",
+            "source_url": "https://hocvien.tiki.vn/faq/huong-dan-quy-trinh-xu-ly-doi-tra-bao-hanh-mo-hinh-dropship/",
+            "retrieved_at": "2026-09-20",
+            "document_version": "not-stated",
+            "audience": "seller",
+            "category": "returns-warranty",
+            "language": "vi",
+            "platform": "tiki",
+            "market": "VN",
+            "channel": "seller-center",
+            "source_scope": "Quy trình đổi trả, bảo hành và thời hạn của nhà bán Dropship.",
+            "chunk_index": 2,
+            "file_path": "data/tiki-doi-tra/tiki-dropship-doi-tra-bao-hanh.md"
+          },
+          "score": 0.5764588615043815
+        }
+      ]
+    },
+    {
+      "id": "Q3",
+      "query": "Nhà bán mô hình NGON cần làm gì khi hàng hoàn bị hư hỏng do lỗi vận chuyển?",
+      "gold_answer": "Liên hệ Tiki trong 24 giờ, xác nhận thông tin/giá trị bồi thường và cung cấp hồ sơ, chứng từ qua Seller Center.",
+      "source_doc_id": "tiki-ngon-doi-tra-boi-thuong",
+      "source_heading": "Khiếu nại và bồi thường hàng hoàn",
+      "evidence_quote": "Nhà bán xác nhận thông tin và giá trị bồi thường, đồng thời cung cấp hồ sơ/chứng từ qua Seller Center.",
+      "metadata_filter": {},
+      "evidence_chunk_ids": [
+        "tiki-ngon-doi-tra-boi-thuong#2"
+      ],
+      "top3": [
+        {
+          "id": "tiki-dropship-doi-tra-bao-hanh#1",
+          "content": "# Quy trình đổi trả và bảo hành cho nhà bán Dropship\n## Điều kiện và trách nhiệm\n\n- Nếu Tiki xác định lỗi do nhà bán, nhà bán buộc phải đồng ý xử lý. Nếu lỗi không do nhà bán, nhà bán đóng gói và tự gửi hàng lại cho khách hàng, chịu chi phí vận chuyển.",
+          "metadata": {
+            "doc_id": "tiki-dropship-doi-tra-bao-hanh",
+            "title": "Hướng dẫn đổi trả bảo hành mô hình Dropship",
+            "source_url": "https://hocvien.tiki.vn/faq/huong-dan-quy-trinh-xu-ly-doi-tra-bao-hanh-mo-hinh-dropship/",
+            "retrieved_at": "2026-09-20",
+            "document_version": "not-stated",
+            "audience": "seller",
+            "category": "returns-warranty",
+            "language": "vi",
+            "platform": "tiki",
+            "market": "VN",
+            "channel": "seller-center",
+            "source_scope": "Quy trình đổi trả, bảo hành và thời hạn của nhà bán Dropship.",
+            "chunk_index": 1,
+            "file_path": "data/tiki-doi-tra/tiki-dropship-doi-tra-bao-hanh.md"
+          },
+          "score": 0.5656075289463023
+        },
+        {
+          "id": "tiki-ngon-doi-tra-boi-thuong#0",
+          "content": "# Đổi trả và bồi thường cho nhà bán mô hình NGON\n## Phạm vi và điều kiện đổi trả\n\n- Áp dụng cho hàng hóa ngành NGON: FMCG và thực phẩm tươi sống.\n- Với thực phẩm tươi sống, sữa-trứng, hàng đông lạnh hoặc hàng có hạn sử dụng dưới 3 tháng: nếu hàng hư hỏng do vận chuyển hoặc giao sai số lượng, khách hàng được từ chối tại thời điểm nhận hàng. Đối tác vận chuyển hoàn trả đơn về địa chỉ lấy hàng ban đầu; không áp dụng đổi/trả sau khi đã nhận hàng.\n- Với hàng có hạn sử dụng, có bao bì hoặc thực phẩm khô, khách hàng được yêu cầu đổi trả theo chính sách đổi trả của Tiki.",
+          "metadata": {
+            "doc_id": "tiki-ngon-doi-tra-boi-thuong",
+            "title": "Hướng dẫn đổi trả bồi thường mô hình NGON",
+            "source_url": "https://hocvien.tiki.vn/faq/mo-hinh-ngon-huong-dan-quy-trinh-xu-ly-doi-tra-boi-thuong/",
+            "retrieved_at": "2026-09-20",
+            "document_version": "not-stated",
+            "audience": "seller",
+            "category": "returns-compensation",
+            "language": "vi",
+            "platform": "tiki",
+            "market": "VN",
+            "channel": "seller-center",
+            "source_scope": "Điều kiện đổi trả, quy trình và bồi thường hàng hoàn cho mô hình NGON.",
+            "chunk_index": 0,
+            "file_path": "data/tiki-doi-tra/tiki-ngon-doi-tra-boi-thuong.md"
+          },
+          "score": 0.5240294914378368
+        },
+        {
+          "id": "tiki-ngon-doi-tra-boi-thuong#2",
+          "content": "# Đổi trả và bồi thường cho nhà bán mô hình NGON\n## Khiếu nại và bồi thường hàng hoàn\n\nTrong vòng **24 giờ** từ thời điểm Tiki trả hàng cho nhà bán, nhà bán phải liên hệ Tiki qua tổng đài 19006035 hoặc `hotro@tiki.vn` khi hàng hoàn bị hư hỏng/bể vỡ do lỗi đối tác vận chuyển. Nhà bán xác nhận thông tin và giá trị bồi thường, đồng thời cung cấp hồ sơ/chứng từ qua Seller Center. Tiki thanh toán tiền bồi thường vào kỳ sao kê gần nhất sau khi nhà bán xác nhận đồng ý trên hệ thống.",
+          "metadata": {
+            "doc_id": "tiki-ngon-doi-tra-boi-thuong",
+            "title": "Hướng dẫn đổi trả bồi thường mô hình NGON",
+            "source_url": "https://hocvien.tiki.vn/faq/mo-hinh-ngon-huong-dan-quy-trinh-xu-ly-doi-tra-boi-thuong/",
+            "retrieved_at": "2026-09-20",
+            "document_version": "not-stated",
+            "audience": "seller",
+            "category": "returns-compensation",
+            "language": "vi",
+            "platform": "tiki",
+            "market": "VN",
+            "channel": "seller-center",
+            "source_scope": "Điều kiện đổi trả, quy trình và bồi thường hàng hoàn cho mô hình NGON.",
+            "chunk_index": 2,
+            "file_path": "data/tiki-doi-tra/tiki-ngon-doi-tra-boi-thuong.md"
+          },
+          "score": 0.5004197206490996
+        }
+      ],
+      "unfiltered_top3": [
+        {
+          "id": "tiki-dropship-doi-tra-bao-hanh#1",
+          "content": "# Quy trình đổi trả và bảo hành cho nhà bán Dropship\n## Điều kiện và trách nhiệm\n\n- Nếu Tiki xác định lỗi do nhà bán, nhà bán buộc phải đồng ý xử lý. Nếu lỗi không do nhà bán, nhà bán đóng gói và tự gửi hàng lại cho khách hàng, chịu chi phí vận chuyển.",
+          "metadata": {
+            "doc_id": "tiki-dropship-doi-tra-bao-hanh",
+            "title": "Hướng dẫn đổi trả bảo hành mô hình Dropship",
+            "source_url": "https://hocvien.tiki.vn/faq/huong-dan-quy-trinh-xu-ly-doi-tra-bao-hanh-mo-hinh-dropship/",
+            "retrieved_at": "2026-09-20",
+            "document_version": "not-stated",
+            "audience": "seller",
+            "category": "returns-warranty",
+            "language": "vi",
+            "platform": "tiki",
+            "market": "VN",
+            "channel": "seller-center",
+            "source_scope": "Quy trình đổi trả, bảo hành và thời hạn của nhà bán Dropship.",
+            "chunk_index": 1,
+            "file_path": "data/tiki-doi-tra/tiki-dropship-doi-tra-bao-hanh.md"
+          },
+          "score": 0.5656075289463023
+        },
+        {
+          "id": "tiki-ngon-doi-tra-boi-thuong#0",
+          "content": "# Đổi trả và bồi thường cho nhà bán mô hình NGON\n## Phạm vi và điều kiện đổi trả\n\n- Áp dụng cho hàng hóa ngành NGON: FMCG và thực phẩm tươi sống.\n- Với thực phẩm tươi sống, sữa-trứng, hàng đông lạnh hoặc hàng có hạn sử dụng dưới 3 tháng: nếu hàng hư hỏng do vận chuyển hoặc giao sai số lượng, khách hàng được từ chối tại thời điểm nhận hàng. Đối tác vận chuyển hoàn trả đơn về địa chỉ lấy hàng ban đầu; không áp dụng đổi/trả sau khi đã nhận hàng.\n- Với hàng có hạn sử dụng, có bao bì hoặc thực phẩm khô, khách hàng được yêu cầu đổi trả theo chính sách đổi trả của Tiki.",
+          "metadata": {
+            "doc_id": "tiki-ngon-doi-tra-boi-thuong",
+            "title": "Hướng dẫn đổi trả bồi thường mô hình NGON",
+            "source_url": "https://hocvien.tiki.vn/faq/mo-hinh-ngon-huong-dan-quy-trinh-xu-ly-doi-tra-boi-thuong/",
+            "retrieved_at": "2026-09-20",
+            "document_version": "not-stated",
+            "audience": "seller",
+            "category": "returns-compensation",
+            "language": "vi",
+            "platform": "tiki",
+            "market": "VN",
+            "channel": "seller-center",
+            "source_scope": "Điều kiện đổi trả, quy trình và bồi thường hàng hoàn cho mô hình NGON.",
+            "chunk_index": 0,
+            "file_path": "data/tiki-doi-tra/tiki-ngon-doi-tra-boi-thuong.md"
+          },
+          "score": 0.5240294914378368
+        },
+        {
+          "id": "tiki-ngon-doi-tra-boi-thuong#2",
+          "content": "# Đổi trả và bồi thường cho nhà bán mô hình NGON\n## Khiếu nại và bồi thường hàng hoàn\n\nTrong vòng **24 giờ** từ thời điểm Tiki trả hàng cho nhà bán, nhà bán phải liên hệ Tiki qua tổng đài 19006035 hoặc `hotro@tiki.vn` khi hàng hoàn bị hư hỏng/bể vỡ do lỗi đối tác vận chuyển. Nhà bán xác nhận thông tin và giá trị bồi thường, đồng thời cung cấp hồ sơ/chứng từ qua Seller Center. Tiki thanh toán tiền bồi thường vào kỳ sao kê gần nhất sau khi nhà bán xác nhận đồng ý trên hệ thống.",
+          "metadata": {
+            "doc_id": "tiki-ngon-doi-tra-boi-thuong",
+            "title": "Hướng dẫn đổi trả bồi thường mô hình NGON",
+            "source_url": "https://hocvien.tiki.vn/faq/mo-hinh-ngon-huong-dan-quy-trinh-xu-ly-doi-tra-boi-thuong/",
+            "retrieved_at": "2026-09-20",
+            "document_version": "not-stated",
+            "audience": "seller",
+            "category": "returns-compensation",
+            "language": "vi",
+            "platform": "tiki",
+            "market": "VN",
+            "channel": "seller-center",
+            "source_scope": "Điều kiện đổi trả, quy trình và bồi thường hàng hoàn cho mô hình NGON.",
+            "chunk_index": 2,
+            "file_path": "data/tiki-doi-tra/tiki-ngon-doi-tra-boi-thuong.md"
+          },
+          "score": 0.5004197206490996
+        }
+      ]
+    },
+    {
+      "id": "Q4",
+      "query": "Nhà bán FBT phải sắp xếp rút hàng trong thời hạn bao lâu?",
+      "gold_answer": "Trong 32 ngày làm việc kể từ khi phiếu trả hàng được tạo.",
+      "source_doc_id": "tiki-fbt-doi-tra-bao-hanh",
+      "source_heading": "Hàng đổi trả",
+      "evidence_quote": "Nhà bán phải theo dõi và sắp xếp rút hàng trong **32 ngày làm việc** kể từ khi phiếu trả hàng được tạo.",
+      "metadata_filter": {},
+      "evidence_chunk_ids": [
+        "tiki-fbt-doi-tra-bao-hanh#0"
+      ],
+      "top3": [
+        {
+          "id": "tiki-faq-doi-tra-bao-hanh#2",
+          "content": "# Câu hỏi thường gặp về đổi trả và bảo hành\n## Dropship và hoàn tiền nhanh\n\n- Với C-return không thu hồi, nhà bán phản hồi trong **02 ngày làm việc** từ khi mã yêu cầu ghi nhận “Không thu hồi”. Với C-return có thu hồi, thời hạn là 02 ngày làm việc từ khi đơn được cập nhật “Đã hoàn hàng – Cần nhà bán phản hồi”.\n- Tiki hoàn hàng về nhà bán trong tối đa **08 ngày làm việc** từ khi yêu cầu đổi/trả/bảo hành được tạo.\n- Từ **15/04/2024**, với sản phẩm có giá trị đền bù từ **500.000 đồng trở xuống**, Tiki có thể hoàn tiền nhanh trước cho khách hàng đối với: thiếu phụ kiện/quà tặng; bể vỡ/trầy xước; hết hoặc không đủ hạn sử dụng; rách/mất tem niêm phong; và một số trường hợp lỗi, giao sai hoặc khác mô tả.",
+          "metadata": {
+            "doc_id": "tiki-faq-doi-tra-bao-hanh",
+            "title": "Câu hỏi thường gặp đổi trả bảo hành",
+            "source_url": "https://hocvien.tiki.vn/faq/cau-hoi-thuong-gap-ve-xu-ly-doi-tra-bao-hanh/",
+            "retrieved_at": "2026-09-20",
+            "document_version": "not-stated",
+            "audience": "seller",
+            "category": "returns-warranty",
+            "language": "vi",
+            "platform": "tiki",
+            "market": "VN",
+            "channel": "seller-center",
+            "source_scope": "FAQ nhà bán: phản hồi, bảo hành, chứng cứ, hoàn tiền nhanh và hàng NGON.",
+            "chunk_index": 2,
+            "file_path": "data/tiki-doi-tra/tiki-faq-doi-tra-bao-hanh.md"
+          },
+          "score": 0.6617493482196565
+        },
+        {
+          "id": "tiki-sd-doi-tra-bao-hanh#2",
+          "content": "# Quy trình đổi trả và bảo hành cho nhà bán SD\n## Thời hạn và trạng thái\n\n- Ở trạng thái **Cần Nhà Bán phản hồi**, nhà bán xác nhận Đồng ý hoặc Khiếu nại/Đề xuất giải pháp khác trong **02 ngày làm việc**.\n- Trạng thái **Đang xử lý khiếu nại** kéo dài **02–07 ngày làm việc**.\n- Ở trạng thái **Đã chốt giải pháp**, Tiki/nhà bán đã xác nhận giải pháp hoặc hoàn thành đổi trả/bảo hành; thời hạn nêu trên nguồn là **02 ngày làm việc**.\n- Nếu nhà bán từ chối một phần hoặc toàn bộ yêu cầu, phải nêu lý do và bổ sung chứng cứ như hình ảnh hoặc video; Tiki xem xét để chốt giải pháp.\n- Khi Tiki từ chối yêu cầu, nhà bán tự vận chuyển hàng trả về khách hàng và thanh toán chi phí vận chuyển phát sinh.",
+          "metadata": {
+            "doc_id": "tiki-sd-doi-tra-bao-hanh",
+            "title": "Hướng dẫn đổi trả bảo hành mô hình SD",
+            "source_url": "https://hocvien.tiki.vn/faq/huong-dan-quy-trinh-xu-ly-doi-tra-bao-hanh-mo-hinh-sd/",
+            "retrieved_at": "2026-09-20",
+            "document_version": "not-stated",
+            "audience": "seller",
+            "category": "returns-warranty",
+            "language": "vi",
+            "platform": "tiki",
+            "market": "VN",
+            "channel": "seller-center",
+            "source_scope": "Quy trình C-return, trách nhiệm và thời hạn cho nhà bán SD.",
+            "chunk_index": 2,
+            "file_path": "data/tiki-doi-tra/tiki-sd-doi-tra-bao-hanh.md"
+          },
+          "score": 0.6019178714686008
+        },
+        {
+          "id": "tiki-dropship-doi-tra-bao-hanh#3",
+          "content": "# Quy trình đổi trả và bảo hành cho nhà bán Dropship\n## Thời hạn xử lý\n\n- Hàng **không thu hồi vật lý**: nhà bán xác nhận trong **02 ngày làm việc** từ khi yêu cầu được tạo.\n- Hàng **có thu hồi vật lý**: Tiki trả hàng cho nhà bán trong **05 ngày làm việc** tùy vị trí; từ khi nhận hàng, nhà bán có **02 ngày làm việc** để phản hồi Đồng ý hoặc Từ chối.\n- Nếu nhà bán không phản hồi đúng hạn, Tiki chuyển C-return sang trạng thái nhà bán đồng ý và không xử lý các khiếu nại phát sinh sau đó.\n- Khi nhà bán từ chối, Tiki kiểm tra chứng cứ và phản hồi trong **03–05 ngày làm việc**.",
+          "metadata": {
+            "doc_id": "tiki-dropship-doi-tra-bao-hanh",
+            "title": "Hướng dẫn đổi trả bảo hành mô hình Dropship",
+            "source_url": "https://hocvien.tiki.vn/faq/huong-dan-quy-trinh-xu-ly-doi-tra-bao-hanh-mo-hinh-dropship/",
+            "retrieved_at": "2026-09-20",
+            "document_version": "not-stated",
+            "audience": "seller",
+            "category": "returns-warranty",
+            "language": "vi",
+            "platform": "tiki",
+            "market": "VN",
+            "channel": "seller-center",
+            "source_scope": "Quy trình đổi trả, bảo hành và thời hạn của nhà bán Dropship.",
+            "chunk_index": 3,
+            "file_path": "data/tiki-doi-tra/tiki-dropship-doi-tra-bao-hanh.md"
+          },
+          "score": 0.5834118823137496
+        }
+      ],
+      "unfiltered_top3": [
+        {
+          "id": "tiki-faq-doi-tra-bao-hanh#2",
+          "content": "# Câu hỏi thường gặp về đổi trả và bảo hành\n## Dropship và hoàn tiền nhanh\n\n- Với C-return không thu hồi, nhà bán phản hồi trong **02 ngày làm việc** từ khi mã yêu cầu ghi nhận “Không thu hồi”. Với C-return có thu hồi, thời hạn là 02 ngày làm việc từ khi đơn được cập nhật “Đã hoàn hàng – Cần nhà bán phản hồi”.\n- Tiki hoàn hàng về nhà bán trong tối đa **08 ngày làm việc** từ khi yêu cầu đổi/trả/bảo hành được tạo.\n- Từ **15/04/2024**, với sản phẩm có giá trị đền bù từ **500.000 đồng trở xuống**, Tiki có thể hoàn tiền nhanh trước cho khách hàng đối với: thiếu phụ kiện/quà tặng; bể vỡ/trầy xước; hết hoặc không đủ hạn sử dụng; rách/mất tem niêm phong; và một số trường hợp lỗi, giao sai hoặc khác mô tả.",
+          "metadata": {
+            "doc_id": "tiki-faq-doi-tra-bao-hanh",
+            "title": "Câu hỏi thường gặp đổi trả bảo hành",
+            "source_url": "https://hocvien.tiki.vn/faq/cau-hoi-thuong-gap-ve-xu-ly-doi-tra-bao-hanh/",
+            "retrieved_at": "2026-09-20",
+            "document_version": "not-stated",
+            "audience": "seller",
+            "category": "returns-warranty",
+            "language": "vi",
+            "platform": "tiki",
+            "market": "VN",
+            "channel": "seller-center",
+            "source_scope": "FAQ nhà bán: phản hồi, bảo hành, chứng cứ, hoàn tiền nhanh và hàng NGON.",
+            "chunk_index": 2,
+            "file_path": "data/tiki-doi-tra/tiki-faq-doi-tra-bao-hanh.md"
+          },
+          "score": 0.6617493482196565
+        },
+        {
+          "id": "tiki-sd-doi-tra-bao-hanh#2",
+          "content": "# Quy trình đổi trả và bảo hành cho nhà bán SD\n## Thời hạn và trạng thái\n\n- Ở trạng thái **Cần Nhà Bán phản hồi**, nhà bán xác nhận Đồng ý hoặc Khiếu nại/Đề xuất giải pháp khác trong **02 ngày làm việc**.\n- Trạng thái **Đang xử lý khiếu nại** kéo dài **02–07 ngày làm việc**.\n- Ở trạng thái **Đã chốt giải pháp**, Tiki/nhà bán đã xác nhận giải pháp hoặc hoàn thành đổi trả/bảo hành; thời hạn nêu trên nguồn là **02 ngày làm việc**.\n- Nếu nhà bán từ chối một phần hoặc toàn bộ yêu cầu, phải nêu lý do và bổ sung chứng cứ như hình ảnh hoặc video; Tiki xem xét để chốt giải pháp.\n- Khi Tiki từ chối yêu cầu, nhà bán tự vận chuyển hàng trả về khách hàng và thanh toán chi phí vận chuyển phát sinh.",
+          "metadata": {
+            "doc_id": "tiki-sd-doi-tra-bao-hanh",
+            "title": "Hướng dẫn đổi trả bảo hành mô hình SD",
+            "source_url": "https://hocvien.tiki.vn/faq/huong-dan-quy-trinh-xu-ly-doi-tra-bao-hanh-mo-hinh-sd/",
+            "retrieved_at": "2026-09-20",
+            "document_version": "not-stated",
+            "audience": "seller",
+            "category": "returns-warranty",
+            "language": "vi",
+            "platform": "tiki",
+            "market": "VN",
+            "channel": "seller-center",
+            "source_scope": "Quy trình C-return, trách nhiệm và thời hạn cho nhà bán SD.",
+            "chunk_index": 2,
+            "file_path": "data/tiki-doi-tra/tiki-sd-doi-tra-bao-hanh.md"
+          },
+          "score": 0.6019178714686008
+        },
+        {
+          "id": "tiki-dropship-doi-tra-bao-hanh#3",
+          "content": "# Quy trình đổi trả và bảo hành cho nhà bán Dropship\n## Thời hạn xử lý\n\n- Hàng **không thu hồi vật lý**: nhà bán xác nhận trong **02 ngày làm việc** từ khi yêu cầu được tạo.\n- Hàng **có thu hồi vật lý**: Tiki trả hàng cho nhà bán trong **05 ngày làm việc** tùy vị trí; từ khi nhận hàng, nhà bán có **02 ngày làm việc** để phản hồi Đồng ý hoặc Từ chối.\n- Nếu nhà bán không phản hồi đúng hạn, Tiki chuyển C-return sang trạng thái nhà bán đồng ý và không xử lý các khiếu nại phát sinh sau đó.\n- Khi nhà bán từ chối, Tiki kiểm tra chứng cứ và phản hồi trong **03–05 ngày làm việc**.",
+          "metadata": {
+            "doc_id": "tiki-dropship-doi-tra-bao-hanh",
+            "title": "Hướng dẫn đổi trả bảo hành mô hình Dropship",
+            "source_url": "https://hocvien.tiki.vn/faq/huong-dan-quy-trinh-xu-ly-doi-tra-bao-hanh-mo-hinh-dropship/",
+            "retrieved_at": "2026-09-20",
+            "document_version": "not-stated",
+            "audience": "seller",
+            "category": "returns-warranty",
+            "language": "vi",
+            "platform": "tiki",
+            "market": "VN",
+            "channel": "seller-center",
+            "source_scope": "Quy trình đổi trả, bảo hành và thời hạn của nhà bán Dropship.",
+            "chunk_index": 3,
+            "file_path": "data/tiki-doi-tra/tiki-dropship-doi-tra-bao-hanh.md"
+          },
+          "score": 0.5834118823137496
+        }
+      ]
+    },
+    {
+      "id": "Q5",
+      "query": "Thời hạn đổi trả miễn phí là bao lâu?",
+      "gold_answer": "30 ngày đổi trả miễn phí; nguồn cũng nêu cam kết hoàn 200% nếu hàng giả.",
+      "source_doc_id": "tiki-doi-tra-30-ngay",
+      "source_heading": "Cam kết được công bố",
+      "evidence_quote": "Tiki công bố quyền lợi **30 ngày đổi trả** và đổi trả miễn phí. Trang cũng nêu cam kết hoàn **200%** nếu hàng giả.",
+      "metadata_filter": {
+        "audience": "buyer"
+      },
+      "evidence_chunk_ids": [
+        "tiki-doi-tra-30-ngay#0"
+      ],
+      "top3": [
+        {
+          "id": "tiki-doi-tra-365#1",
+          "content": "# Chương trình đổi trả 365 ngày\n## Điều kiện và quyền lợi\n\nVới đơn hàng được xác định có lỗi kỹ thuật do nhà sản xuất, khách hàng có thể được đổi trả miễn phí tận nhà hoặc hoàn tiền 100% trong vòng **365 ngày kể từ ngày đặt hàng**.",
+          "metadata": {
+            "doc_id": "tiki-doi-tra-365",
+            "title": "Chương trình đổi trả 365",
+            "source_url": "https://tiki.vn/blog/chuong-trinh-doi-tra-365/",
+            "retrieved_at": "2026-09-20",
+            "document_version": "2023-11-10",
+            "audience": "buyer",
+            "category": "returns-policy",
+            "language": "vi",
+            "platform": "tiki",
+            "market": "VN",
+            "channel": "marketplace",
+            "source_scope": "Phạm vi, điều kiện, ngoại lệ và bằng chứng của chương trình đổi trả 365.",
+            "chunk_index": 1,
+            "file_path": "data/tiki-doi-tra/tiki-doi-tra-365.md"
+          },
+          "score": 0.6256200139248147
+        },
+        {
+          "id": "tiki-doi-tra-365#0",
+          "content": "# Chương trình đổi trả 365 ngày\n## Phạm vi và thời điểm áp dụng\n\n- Chương trình áp dụng từ **01/11/2023**.\n- Áp dụng cho ngành hàng **Điện gia dụng** và **Thiết bị số** thuộc nhà bán **Tiki Trading**.\n- Hình thức xử lý: **đổi trả hoặc hoàn tiền**.",
+          "metadata": {
+            "doc_id": "tiki-doi-tra-365",
+            "title": "Chương trình đổi trả 365",
+            "source_url": "https://tiki.vn/blog/chuong-trinh-doi-tra-365/",
+            "retrieved_at": "2026-09-20",
+            "document_version": "2023-11-10",
+            "audience": "buyer",
+            "category": "returns-policy",
+            "language": "vi",
+            "platform": "tiki",
+            "market": "VN",
+            "channel": "marketplace",
+            "source_scope": "Phạm vi, điều kiện, ngoại lệ và bằng chứng của chương trình đổi trả 365.",
+            "chunk_index": 0,
+            "file_path": "data/tiki-doi-tra/tiki-doi-tra-365.md"
+          },
+          "score": 0.581929360302233
+        },
+        {
+          "id": "tiki-doi-tra-30-ngay#0",
+          "content": "# Đổi trả miễn phí 30 ngày\n## Cam kết được công bố\n\nTiki công bố quyền lợi **30 ngày đổi trả** và đổi trả miễn phí. Trang cũng nêu cam kết hoàn **200%** nếu hàng giả.\n\n> Nguồn không nêu điều kiện, ngoại lệ hoặc quy trình chi tiết; không suy diễn thêm từ các cam kết này.",
+          "metadata": {
+            "doc_id": "tiki-doi-tra-30-ngay",
+            "title": "Đổi trả miễn phí 30 ngày",
+            "source_url": "https://tiki.vn/thong-tin/tiki-doi-tra-de-dang-an-tam-mua-sam",
+            "retrieved_at": "2026-09-20",
+            "document_version": "not-stated",
+            "audience": "buyer",
+            "category": "returns-policy",
+            "language": "vi",
+            "platform": "tiki",
+            "market": "VN",
+            "channel": "marketplace",
+            "source_scope": "Cam kết 30 ngày và 200% hàng giả; nguồn không nêu điều kiện chi tiết.",
+            "chunk_index": 0,
+            "file_path": "data/tiki-doi-tra/tiki-doi-tra-30-ngay.md"
+          },
+          "score": 0.572190207250061
+        }
+      ],
+      "unfiltered_top3": [
+        {
+          "id": "tiki-doi-tra-365#1",
+          "content": "# Chương trình đổi trả 365 ngày\n## Điều kiện và quyền lợi\n\nVới đơn hàng được xác định có lỗi kỹ thuật do nhà sản xuất, khách hàng có thể được đổi trả miễn phí tận nhà hoặc hoàn tiền 100% trong vòng **365 ngày kể từ ngày đặt hàng**.",
+          "metadata": {
+            "doc_id": "tiki-doi-tra-365",
+            "title": "Chương trình đổi trả 365",
+            "source_url": "https://tiki.vn/blog/chuong-trinh-doi-tra-365/",
+            "retrieved_at": "2026-09-20",
+            "document_version": "2023-11-10",
+            "audience": "buyer",
+            "category": "returns-policy",
+            "language": "vi",
+            "platform": "tiki",
+            "market": "VN",
+            "channel": "marketplace",
+            "source_scope": "Phạm vi, điều kiện, ngoại lệ và bằng chứng của chương trình đổi trả 365.",
+            "chunk_index": 1,
+            "file_path": "data/tiki-doi-tra/tiki-doi-tra-365.md"
+          },
+          "score": 0.6256200139248147
+        },
+        {
+          "id": "tiki-doi-tra-365#0",
+          "content": "# Chương trình đổi trả 365 ngày\n## Phạm vi và thời điểm áp dụng\n\n- Chương trình áp dụng từ **01/11/2023**.\n- Áp dụng cho ngành hàng **Điện gia dụng** và **Thiết bị số** thuộc nhà bán **Tiki Trading**.\n- Hình thức xử lý: **đổi trả hoặc hoàn tiền**.",
+          "metadata": {
+            "doc_id": "tiki-doi-tra-365",
+            "title": "Chương trình đổi trả 365",
+            "source_url": "https://tiki.vn/blog/chuong-trinh-doi-tra-365/",
+            "retrieved_at": "2026-09-20",
+            "document_version": "2023-11-10",
+            "audience": "buyer",
+            "category": "returns-policy",
+            "language": "vi",
+            "platform": "tiki",
+            "market": "VN",
+            "channel": "marketplace",
+            "source_scope": "Phạm vi, điều kiện, ngoại lệ và bằng chứng của chương trình đổi trả 365.",
+            "chunk_index": 0,
+            "file_path": "data/tiki-doi-tra/tiki-doi-tra-365.md"
+          },
+          "score": 0.581929360302233
+        },
+        {
+          "id": "tiki-doi-tra-30-ngay#0",
+          "content": "# Đổi trả miễn phí 30 ngày\n## Cam kết được công bố\n\nTiki công bố quyền lợi **30 ngày đổi trả** và đổi trả miễn phí. Trang cũng nêu cam kết hoàn **200%** nếu hàng giả.\n\n> Nguồn không nêu điều kiện, ngoại lệ hoặc quy trình chi tiết; không suy diễn thêm từ các cam kết này.",
+          "metadata": {
+            "doc_id": "tiki-doi-tra-30-ngay",
+            "title": "Đổi trả miễn phí 30 ngày",
+            "source_url": "https://tiki.vn/thong-tin/tiki-doi-tra-de-dang-an-tam-mua-sam",
+            "retrieved_at": "2026-09-20",
+            "document_version": "not-stated",
+            "audience": "buyer",
+            "category": "returns-policy",
+            "language": "vi",
+            "platform": "tiki",
+            "market": "VN",
+            "channel": "marketplace",
+            "source_scope": "Cam kết 30 ngày và 200% hàng giả; nguồn không nêu điều kiện chi tiết.",
+            "chunk_index": 0,
+            "file_path": "data/tiki-doi-tra/tiki-doi-tra-30-ngay.md"
+          },
+          "score": 0.572190207250061
+        }
+      ]
+    }
+  ]
+}

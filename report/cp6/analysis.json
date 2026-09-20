@@ -1,0 +1,829 @@
+{
+  "fixed": {
+    "strategy": "FixedSizeChunker",
+    "strategy_parameters": {
+      "chunk_size": 800,
+      "overlap": 50
+    },
+    "embedding_provider": "local",
+    "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "chunk_count": 19,
+    "rows": [
+      {
+        "id": "Q1",
+        "gold_doc_id": "tiki-doi-tra-365",
+        "document_rank": 1,
+        "evidence_rank": 1,
+        "document_in_top3": true,
+        "evidence_in_top3": true,
+        "retrieval_proxy_points": 2,
+        "top3": [
+          {
+            "id": "tiki-doi-tra-365#0",
+            "doc_id": "tiki-doi-tra-365",
+            "audience": "buyer",
+            "score": 0.6893382249088157
+          },
+          {
+            "id": "tiki-doi-tra-30-ngay#0",
+            "doc_id": "tiki-doi-tra-30-ngay",
+            "audience": "buyer",
+            "score": 0.5977259074872783
+          },
+          {
+            "id": "tiki-doi-tra-365#1",
+            "doc_id": "tiki-doi-tra-365",
+            "audience": "buyer",
+            "score": 0.2323861127970875
+          }
+        ],
+        "filter": {
+          "audience": "buyer"
+        },
+        "unfiltered_top3": [
+          {
+            "id": "tiki-sd-doi-tra-bao-hanh#0",
+            "doc_id": "tiki-sd-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.6973307632035388
+          },
+          {
+            "id": "tiki-doi-tra-365#0",
+            "doc_id": "tiki-doi-tra-365",
+            "audience": "buyer",
+            "score": 0.6893382249088157
+          },
+          {
+            "id": "tiki-fbt-doi-tra-bao-hanh#1",
+            "doc_id": "tiki-fbt-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.6659947378472022
+          }
+        ]
+      },
+      {
+        "id": "Q2",
+        "gold_doc_id": "tiki-doi-tra-365",
+        "document_rank": 2,
+        "evidence_rank": 2,
+        "document_in_top3": true,
+        "evidence_in_top3": true,
+        "retrieval_proxy_points": 1,
+        "top3": [
+          {
+            "id": "tiki-fbt-doi-tra-bao-hanh#1",
+            "doc_id": "tiki-fbt-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.5762207600780914
+          },
+          {
+            "id": "tiki-doi-tra-365#0",
+            "doc_id": "tiki-doi-tra-365",
+            "audience": "buyer",
+            "score": 0.566933231313624
+          },
+          {
+            "id": "tiki-faq-doi-tra-bao-hanh#1",
+            "doc_id": "tiki-faq-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.5462613344523495
+          }
+        ],
+        "filter": {},
+        "unfiltered_top3": [
+          {
+            "id": "tiki-fbt-doi-tra-bao-hanh#1",
+            "doc_id": "tiki-fbt-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.5762207600780914
+          },
+          {
+            "id": "tiki-doi-tra-365#0",
+            "doc_id": "tiki-doi-tra-365",
+            "audience": "buyer",
+            "score": 0.566933231313624
+          },
+          {
+            "id": "tiki-faq-doi-tra-bao-hanh#1",
+            "doc_id": "tiki-faq-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.5462613344523495
+          }
+        ]
+      },
+      {
+        "id": "Q3",
+        "gold_doc_id": "tiki-dropship-doi-tra-bao-hanh",
+        "document_rank": 1,
+        "evidence_rank": null,
+        "document_in_top3": true,
+        "evidence_in_top3": false,
+        "retrieval_proxy_points": 0,
+        "top3": [
+          {
+            "id": "tiki-dropship-doi-tra-bao-hanh#0",
+            "doc_id": "tiki-dropship-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.5652485883685359
+          },
+          {
+            "id": "tiki-faq-doi-tra-bao-hanh#1",
+            "doc_id": "tiki-faq-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.5531820072160702
+          },
+          {
+            "id": "tiki-dropship-doi-tra-bao-hanh#1",
+            "doc_id": "tiki-dropship-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.5233934331761786
+          }
+        ],
+        "filter": {
+          "audience": "seller"
+        },
+        "unfiltered_top3": [
+          {
+            "id": "tiki-dropship-doi-tra-bao-hanh#0",
+            "doc_id": "tiki-dropship-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.5652485883685359
+          },
+          {
+            "id": "tiki-faq-doi-tra-bao-hanh#1",
+            "doc_id": "tiki-faq-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.5531820072160702
+          },
+          {
+            "id": "tiki-dropship-doi-tra-bao-hanh#1",
+            "doc_id": "tiki-dropship-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.5233934331761786
+          }
+        ]
+      },
+      {
+        "id": "Q4",
+        "gold_doc_id": "tiki-doi-tra-365",
+        "document_rank": 1,
+        "evidence_rank": 1,
+        "document_in_top3": true,
+        "evidence_in_top3": true,
+        "retrieval_proxy_points": 2,
+        "top3": [
+          {
+            "id": "tiki-doi-tra-365#0",
+            "doc_id": "tiki-doi-tra-365",
+            "audience": "buyer",
+            "score": 0.5706835642177052
+          },
+          {
+            "id": "tiki-doi-tra-30-ngay#0",
+            "doc_id": "tiki-doi-tra-30-ngay",
+            "audience": "buyer",
+            "score": 0.4920534112646531
+          },
+          {
+            "id": "tiki-doi-tra-365#1",
+            "doc_id": "tiki-doi-tra-365",
+            "audience": "buyer",
+            "score": 0.41771290821222723
+          }
+        ],
+        "filter": {
+          "audience": "buyer"
+        },
+        "unfiltered_top3": [
+          {
+            "id": "tiki-doi-tra-365#0",
+            "doc_id": "tiki-doi-tra-365",
+            "audience": "buyer",
+            "score": 0.5706835642177052
+          },
+          {
+            "id": "tiki-ngon-doi-tra-boi-thuong#0",
+            "doc_id": "tiki-ngon-doi-tra-boi-thuong",
+            "audience": "seller",
+            "score": 0.5687824355125555
+          },
+          {
+            "id": "tiki-sd-doi-tra-bao-hanh#0",
+            "doc_id": "tiki-sd-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.5529266777512409
+          }
+        ]
+      },
+      {
+        "id": "Q5",
+        "gold_doc_id": "tiki-ngon-doi-tra-boi-thuong",
+        "document_rank": 1,
+        "evidence_rank": 1,
+        "document_in_top3": true,
+        "evidence_in_top3": true,
+        "retrieval_proxy_points": 2,
+        "top3": [
+          {
+            "id": "tiki-ngon-doi-tra-boi-thuong#1",
+            "doc_id": "tiki-ngon-doi-tra-boi-thuong",
+            "audience": "seller",
+            "score": 0.5811354258044961
+          },
+          {
+            "id": "tiki-faq-doi-tra-bao-hanh#0",
+            "doc_id": "tiki-faq-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.5672863360088023
+          },
+          {
+            "id": "tiki-ngon-doi-tra-boi-thuong#0",
+            "doc_id": "tiki-ngon-doi-tra-boi-thuong",
+            "audience": "seller",
+            "score": 0.5615834776936254
+          }
+        ],
+        "filter": {
+          "audience": "seller"
+        },
+        "unfiltered_top3": [
+          {
+            "id": "tiki-ngon-doi-tra-boi-thuong#1",
+            "doc_id": "tiki-ngon-doi-tra-boi-thuong",
+            "audience": "seller",
+            "score": 0.5811354258044961
+          },
+          {
+            "id": "tiki-faq-doi-tra-bao-hanh#0",
+            "doc_id": "tiki-faq-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.5672863360088023
+          },
+          {
+            "id": "tiki-ngon-doi-tra-boi-thuong#0",
+            "doc_id": "tiki-ngon-doi-tra-boi-thuong",
+            "audience": "seller",
+            "score": 0.5615834776936254
+          }
+        ]
+      }
+    ],
+    "document_level_hits": 5,
+    "evidence_level_hits": 4,
+    "retrieval_proxy_points": 7,
+    "agent_answers_evaluated": false
+  },
+  "recursive": {
+    "strategy": "RecursiveChunker",
+    "strategy_parameters": {
+      "separators": [
+        "\n\n",
+        "\n",
+        ". ",
+        " ",
+        ""
+      ],
+      "chunk_size": 800
+    },
+    "embedding_provider": "local",
+    "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "chunk_count": 21,
+    "rows": [
+      {
+        "id": "Q1",
+        "gold_doc_id": "tiki-doi-tra-365",
+        "document_rank": 1,
+        "evidence_rank": 1,
+        "document_in_top3": true,
+        "evidence_in_top3": true,
+        "retrieval_proxy_points": 2,
+        "top3": [
+          {
+            "id": "tiki-doi-tra-365#0",
+            "doc_id": "tiki-doi-tra-365",
+            "audience": "buyer",
+            "score": 0.6893382249088157
+          },
+          {
+            "id": "tiki-doi-tra-30-ngay#0",
+            "doc_id": "tiki-doi-tra-30-ngay",
+            "audience": "buyer",
+            "score": 0.5977259074872783
+          },
+          {
+            "id": "tiki-doi-tra-365#1",
+            "doc_id": "tiki-doi-tra-365",
+            "audience": "buyer",
+            "score": 0.558029614556359
+          }
+        ],
+        "filter": {
+          "audience": "buyer"
+        },
+        "unfiltered_top3": [
+          {
+            "id": "tiki-sd-doi-tra-bao-hanh#0",
+            "doc_id": "tiki-sd-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.6973307632035388
+          },
+          {
+            "id": "tiki-doi-tra-365#0",
+            "doc_id": "tiki-doi-tra-365",
+            "audience": "buyer",
+            "score": 0.6893382249088157
+          },
+          {
+            "id": "tiki-ngon-doi-tra-boi-thuong#1",
+            "doc_id": "tiki-ngon-doi-tra-boi-thuong",
+            "audience": "seller",
+            "score": 0.6850033603849444
+          }
+        ]
+      },
+      {
+        "id": "Q2",
+        "gold_doc_id": "tiki-doi-tra-365",
+        "document_rank": 1,
+        "evidence_rank": 1,
+        "document_in_top3": true,
+        "evidence_in_top3": true,
+        "retrieval_proxy_points": 2,
+        "top3": [
+          {
+            "id": "tiki-doi-tra-365#1",
+            "doc_id": "tiki-doi-tra-365",
+            "audience": "buyer",
+            "score": 0.7525263315075349
+          },
+          {
+            "id": "tiki-doi-tra-365#0",
+            "doc_id": "tiki-doi-tra-365",
+            "audience": "buyer",
+            "score": 0.566933231313624
+          },
+          {
+            "id": "tiki-faq-doi-tra-bao-hanh#1",
+            "doc_id": "tiki-faq-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.5373441731894915
+          }
+        ],
+        "filter": {},
+        "unfiltered_top3": [
+          {
+            "id": "tiki-doi-tra-365#1",
+            "doc_id": "tiki-doi-tra-365",
+            "audience": "buyer",
+            "score": 0.7525263315075349
+          },
+          {
+            "id": "tiki-doi-tra-365#0",
+            "doc_id": "tiki-doi-tra-365",
+            "audience": "buyer",
+            "score": 0.566933231313624
+          },
+          {
+            "id": "tiki-faq-doi-tra-bao-hanh#1",
+            "doc_id": "tiki-faq-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.5373441731894915
+          }
+        ]
+      },
+      {
+        "id": "Q3",
+        "gold_doc_id": "tiki-dropship-doi-tra-bao-hanh",
+        "document_rank": 2,
+        "evidence_rank": null,
+        "document_in_top3": true,
+        "evidence_in_top3": false,
+        "retrieval_proxy_points": 0,
+        "top3": [
+          {
+            "id": "tiki-faq-doi-tra-bao-hanh#3",
+            "doc_id": "tiki-faq-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.7053734043833144
+          },
+          {
+            "id": "tiki-dropship-doi-tra-bao-hanh#0",
+            "doc_id": "tiki-dropship-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.5652485883685359
+          },
+          {
+            "id": "tiki-faq-doi-tra-bao-hanh#1",
+            "doc_id": "tiki-faq-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.49591081580965046
+          }
+        ],
+        "filter": {
+          "audience": "seller"
+        },
+        "unfiltered_top3": [
+          {
+            "id": "tiki-faq-doi-tra-bao-hanh#3",
+            "doc_id": "tiki-faq-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.7053734043833144
+          },
+          {
+            "id": "tiki-dropship-doi-tra-bao-hanh#0",
+            "doc_id": "tiki-dropship-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.5652485883685359
+          },
+          {
+            "id": "tiki-faq-doi-tra-bao-hanh#1",
+            "doc_id": "tiki-faq-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.49591081580965046
+          }
+        ]
+      },
+      {
+        "id": "Q4",
+        "gold_doc_id": "tiki-doi-tra-365",
+        "document_rank": 1,
+        "evidence_rank": 1,
+        "document_in_top3": true,
+        "evidence_in_top3": true,
+        "retrieval_proxy_points": 2,
+        "top3": [
+          {
+            "id": "tiki-doi-tra-365#0",
+            "doc_id": "tiki-doi-tra-365",
+            "audience": "buyer",
+            "score": 0.5706835642177052
+          },
+          {
+            "id": "tiki-doi-tra-365#1",
+            "doc_id": "tiki-doi-tra-365",
+            "audience": "buyer",
+            "score": 0.5349081951514508
+          },
+          {
+            "id": "tiki-doi-tra-30-ngay#0",
+            "doc_id": "tiki-doi-tra-30-ngay",
+            "audience": "buyer",
+            "score": 0.4920534112646531
+          }
+        ],
+        "filter": {
+          "audience": "buyer"
+        },
+        "unfiltered_top3": [
+          {
+            "id": "tiki-doi-tra-365#0",
+            "doc_id": "tiki-doi-tra-365",
+            "audience": "buyer",
+            "score": 0.5706835642177052
+          },
+          {
+            "id": "tiki-ngon-doi-tra-boi-thuong#0",
+            "doc_id": "tiki-ngon-doi-tra-boi-thuong",
+            "audience": "seller",
+            "score": 0.5687824355125555
+          },
+          {
+            "id": "tiki-sd-doi-tra-bao-hanh#0",
+            "doc_id": "tiki-sd-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.5529266777512409
+          }
+        ]
+      },
+      {
+        "id": "Q5",
+        "gold_doc_id": "tiki-ngon-doi-tra-boi-thuong",
+        "document_rank": 2,
+        "evidence_rank": null,
+        "document_in_top3": true,
+        "evidence_in_top3": false,
+        "retrieval_proxy_points": 0,
+        "top3": [
+          {
+            "id": "tiki-faq-doi-tra-bao-hanh#1",
+            "doc_id": "tiki-faq-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.5935303808509461
+          },
+          {
+            "id": "tiki-ngon-doi-tra-boi-thuong#0",
+            "doc_id": "tiki-ngon-doi-tra-boi-thuong",
+            "audience": "seller",
+            "score": 0.5615834776936254
+          },
+          {
+            "id": "tiki-sd-doi-tra-bao-hanh#2",
+            "doc_id": "tiki-sd-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.5269400230584064
+          }
+        ],
+        "filter": {
+          "audience": "seller"
+        },
+        "unfiltered_top3": [
+          {
+            "id": "tiki-faq-doi-tra-bao-hanh#1",
+            "doc_id": "tiki-faq-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.5935303808509461
+          },
+          {
+            "id": "tiki-ngon-doi-tra-boi-thuong#0",
+            "doc_id": "tiki-ngon-doi-tra-boi-thuong",
+            "audience": "seller",
+            "score": 0.5615834776936254
+          },
+          {
+            "id": "tiki-sd-doi-tra-bao-hanh#2",
+            "doc_id": "tiki-sd-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.5269400230584064
+          }
+        ]
+      }
+    ],
+    "document_level_hits": 5,
+    "evidence_level_hits": 3,
+    "retrieval_proxy_points": 6,
+    "agent_answers_evaluated": false
+  },
+  "heading": {
+    "strategy": "HeadingChunker",
+    "strategy_parameters": {
+      "chunk_size": 800
+    },
+    "embedding_provider": "local",
+    "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "chunk_count": 24,
+    "rows": [
+      {
+        "id": "Q1",
+        "gold_doc_id": "tiki-doi-tra-365",
+        "document_rank": 1,
+        "evidence_rank": 1,
+        "document_in_top3": true,
+        "evidence_in_top3": true,
+        "retrieval_proxy_points": 2,
+        "top3": [
+          {
+            "id": "tiki-doi-tra-365#0",
+            "doc_id": "tiki-doi-tra-365",
+            "audience": "buyer",
+            "score": 0.6854610632181811
+          },
+          {
+            "id": "tiki-doi-tra-365#2",
+            "doc_id": "tiki-doi-tra-365",
+            "audience": "buyer",
+            "score": 0.6345981772998973
+          },
+          {
+            "id": "tiki-doi-tra-30-ngay#0",
+            "doc_id": "tiki-doi-tra-30-ngay",
+            "audience": "buyer",
+            "score": 0.5977259074872783
+          }
+        ],
+        "filter": {
+          "audience": "buyer"
+        },
+        "unfiltered_top3": [
+          {
+            "id": "tiki-sd-doi-tra-bao-hanh#0",
+            "doc_id": "tiki-sd-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.6973307632035388
+          },
+          {
+            "id": "tiki-doi-tra-365#0",
+            "doc_id": "tiki-doi-tra-365",
+            "audience": "buyer",
+            "score": 0.6854610632181811
+          },
+          {
+            "id": "tiki-fbt-doi-tra-bao-hanh#1",
+            "doc_id": "tiki-fbt-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.6837089240486546
+          }
+        ]
+      },
+      {
+        "id": "Q2",
+        "gold_doc_id": "tiki-doi-tra-365",
+        "document_rank": 1,
+        "evidence_rank": 1,
+        "document_in_top3": true,
+        "evidence_in_top3": true,
+        "retrieval_proxy_points": 2,
+        "top3": [
+          {
+            "id": "tiki-doi-tra-365#2",
+            "doc_id": "tiki-doi-tra-365",
+            "audience": "buyer",
+            "score": 0.8022189140396842
+          },
+          {
+            "id": "tiki-fbt-doi-tra-bao-hanh#1",
+            "doc_id": "tiki-fbt-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.5414433870065989
+          },
+          {
+            "id": "tiki-fbt-doi-tra-bao-hanh#0",
+            "doc_id": "tiki-fbt-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.5258871994455824
+          }
+        ],
+        "filter": {},
+        "unfiltered_top3": [
+          {
+            "id": "tiki-doi-tra-365#2",
+            "doc_id": "tiki-doi-tra-365",
+            "audience": "buyer",
+            "score": 0.8022189140396842
+          },
+          {
+            "id": "tiki-fbt-doi-tra-bao-hanh#1",
+            "doc_id": "tiki-fbt-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.5414433870065989
+          },
+          {
+            "id": "tiki-fbt-doi-tra-bao-hanh#0",
+            "doc_id": "tiki-fbt-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.5258871994455824
+          }
+        ]
+      },
+      {
+        "id": "Q3",
+        "gold_doc_id": "tiki-dropship-doi-tra-bao-hanh",
+        "document_rank": 2,
+        "evidence_rank": 2,
+        "document_in_top3": true,
+        "evidence_in_top3": true,
+        "retrieval_proxy_points": 1,
+        "top3": [
+          {
+            "id": "tiki-faq-doi-tra-bao-hanh#2",
+            "doc_id": "tiki-faq-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.7448316898479662
+          },
+          {
+            "id": "tiki-dropship-doi-tra-bao-hanh#3",
+            "doc_id": "tiki-dropship-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.6103731881161846
+          },
+          {
+            "id": "tiki-dropship-doi-tra-bao-hanh#2",
+            "doc_id": "tiki-dropship-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.5910875976526648
+          }
+        ],
+        "filter": {
+          "audience": "seller"
+        },
+        "unfiltered_top3": [
+          {
+            "id": "tiki-faq-doi-tra-bao-hanh#2",
+            "doc_id": "tiki-faq-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.7448316898479662
+          },
+          {
+            "id": "tiki-dropship-doi-tra-bao-hanh#3",
+            "doc_id": "tiki-dropship-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.6103731881161846
+          },
+          {
+            "id": "tiki-dropship-doi-tra-bao-hanh#2",
+            "doc_id": "tiki-dropship-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.5910875976526648
+          }
+        ]
+      },
+      {
+        "id": "Q4",
+        "gold_doc_id": "tiki-doi-tra-365",
+        "document_rank": 1,
+        "evidence_rank": 1,
+        "document_in_top3": true,
+        "evidence_in_top3": true,
+        "retrieval_proxy_points": 2,
+        "top3": [
+          {
+            "id": "tiki-doi-tra-365#1",
+            "doc_id": "tiki-doi-tra-365",
+            "audience": "buyer",
+            "score": 0.682295558981866
+          },
+          {
+            "id": "tiki-doi-tra-365#2",
+            "doc_id": "tiki-doi-tra-365",
+            "audience": "buyer",
+            "score": 0.5744480825472472
+          },
+          {
+            "id": "tiki-doi-tra-30-ngay#0",
+            "doc_id": "tiki-doi-tra-30-ngay",
+            "audience": "buyer",
+            "score": 0.4920534112646531
+          }
+        ],
+        "filter": {
+          "audience": "buyer"
+        },
+        "unfiltered_top3": [
+          {
+            "id": "tiki-doi-tra-365#1",
+            "doc_id": "tiki-doi-tra-365",
+            "audience": "buyer",
+            "score": 0.682295558981866
+          },
+          {
+            "id": "tiki-doi-tra-365#2",
+            "doc_id": "tiki-doi-tra-365",
+            "audience": "buyer",
+            "score": 0.5744480825472472
+          },
+          {
+            "id": "tiki-ngon-doi-tra-boi-thuong#0",
+            "doc_id": "tiki-ngon-doi-tra-boi-thuong",
+            "audience": "seller",
+            "score": 0.5687824355125555
+          }
+        ]
+      },
+      {
+        "id": "Q5",
+        "gold_doc_id": "tiki-ngon-doi-tra-boi-thuong",
+        "document_rank": 3,
+        "evidence_rank": null,
+        "document_in_top3": true,
+        "evidence_in_top3": false,
+        "retrieval_proxy_points": 0,
+        "top3": [
+          {
+            "id": "tiki-faq-doi-tra-bao-hanh#0",
+            "doc_id": "tiki-faq-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.5672863360088023
+          },
+          {
+            "id": "tiki-faq-doi-tra-bao-hanh#1",
+            "doc_id": "tiki-faq-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.5618714901834568
+          },
+          {
+            "id": "tiki-ngon-doi-tra-boi-thuong#0",
+            "doc_id": "tiki-ngon-doi-tra-boi-thuong",
+            "audience": "seller",
+            "score": 0.5615834776936254
+          }
+        ],
+        "filter": {
+          "audience": "seller"
+        },
+        "unfiltered_top3": [
+          {
+            "id": "tiki-faq-doi-tra-bao-hanh#0",
+            "doc_id": "tiki-faq-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.5672863360088023
+          },
+          {
+            "id": "tiki-faq-doi-tra-bao-hanh#1",
+            "doc_id": "tiki-faq-doi-tra-bao-hanh",
+            "audience": "seller",
+            "score": 0.5618714901834568
+          },
+          {
+            "id": "tiki-ngon-doi-tra-boi-thuong#0",
+            "doc_id": "tiki-ngon-doi-tra-boi-thuong",
+            "audience": "seller",
+            "score": 0.5615834776936254
+          }
+        ]
+      }
+    ],
+    "document_level_hits": 5,
+    "evidence_level_hits": 4,
+    "retrieval_proxy_points": 7,
+    "agent_answers_evaluated": false
+  }
+}

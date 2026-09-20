@@ -1,0 +1,62 @@
+Strategy: RecursiveChunker {'separators': ['\n\n', '\n', '. ', ' ', ''], 'chunk_size': 800}
+Embedding: local / sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Loaded 8 files -> 21 chunks
+
+Q1: Chương trình đổi trả 365 ngày áp dụng cho ngành hàng và nhà bán nào?
+filter={}
+Gold: Áp dụng cho ngành Điện gia dụng và Thiết bị số thuộc nhà bán Tiki Trading.
+Source: tiki-doi-tra-365 / Phạm vi và thời điểm áp dụng
+  1. score=0.743338 doc_id=tiki-doi-tra-365 chunk_id=tiki-doi-tra-365#0 audience=buyer
+     # Chương trình đổi trả 365 ngày  ## Phạm vi và thời điểm áp dụng  - Chương trình áp dụng từ **01/11/2023**. - Áp dụng cho ngành hàng **Điện gia dụng** và **Thiết bị số** thuộc nhà bán **Tiki Trading**. - Hình thức xử lý: **đổi trả hoặc hoàn
+  2. score=0.506424 doc_id=tiki-ngon-doi-tra-boi-thuong chunk_id=tiki-ngon-doi-tra-boi-thuong#0 audience=seller
+     # Đổi trả và bồi thường cho nhà bán mô hình NGON  ## Phạm vi và điều kiện đổi trả  - Áp dụng cho hàng hóa ngành NGON: FMCG và thực phẩm tươi sống. - Với thực phẩm tươi sống, sữa-trứng, hàng đông lạnh hoặc hàng có hạn sử dụng dưới 3 tháng: n
+  3. score=0.505340 doc_id=tiki-faq-doi-tra-bao-hanh chunk_id=tiki-faq-doi-tra-bao-hanh#1 audience=seller
+     - Nếu nhà bán không xác nhận phương án xử lý trong **02 ngày làm việc**, Tiki xử lý theo yêu cầu khách hàng và có thể từ chối khiếu nại phát sinh sau thời hạn này. - Nhà bán cam kết thời gian bảo hành tối đa **30 ngày**, tính từ lúc nhận hà
+
+Q2: Khi từ chối yêu cầu đổi trả hoặc bảo hành, nhà bán Dropship cần cung cấp những loại bằng chứng hợp lệ nào?
+filter={}
+Gold: Biên bản bàn giao/đồng kiểm; ảnh hoặc video đóng gói/khui mở; hoặc biên bản thẩm định của hãng.
+Source: tiki-dropship-doi-tra-bao-hanh / Điều kiện và trách nhiệm
+  1. score=0.572443 doc_id=tiki-dropship-doi-tra-bao-hanh chunk_id=tiki-dropship-doi-tra-bao-hanh#0 audience=seller
+     # Quy trình đổi trả và bảo hành cho nhà bán Dropship  ## Điều kiện và trách nhiệm  - Nhà bán theo dõi và phản hồi tiến độ tại Seller Center > Đơn hàng > Đổi trả bảo hành. Khi nhà bán đồng ý đổi trả, Tiki tạo đơn C-return; nhà bán đóng gói, 
+  2. score=0.476341 doc_id=tiki-faq-doi-tra-bao-hanh chunk_id=tiki-faq-doi-tra-bao-hanh#0 audience=seller
+     # Câu hỏi thường gặp về đổi trả và bảo hành  ## Phản hồi, bảo hành và chứng cứ  
+  3. score=0.475192 doc_id=tiki-ngon-doi-tra-boi-thuong chunk_id=tiki-ngon-doi-tra-boi-thuong#0 audience=seller
+     # Đổi trả và bồi thường cho nhà bán mô hình NGON  ## Phạm vi và điều kiện đổi trả  - Áp dụng cho hàng hóa ngành NGON: FMCG và thực phẩm tươi sống. - Với thực phẩm tươi sống, sữa-trứng, hàng đông lạnh hoặc hàng có hạn sử dụng dưới 3 tháng: n
+
+Q3: Nhà bán mô hình NGON cần làm gì khi hàng hoàn bị hư hỏng do lỗi vận chuyển?
+filter={}
+Gold: Liên hệ Tiki trong 24 giờ, xác nhận thông tin/giá trị bồi thường và cung cấp hồ sơ, chứng từ qua Seller Center.
+Source: tiki-ngon-doi-tra-boi-thuong / Khiếu nại và bồi thường hàng hoàn
+  1. score=0.524029 doc_id=tiki-ngon-doi-tra-boi-thuong chunk_id=tiki-ngon-doi-tra-boi-thuong#0 audience=seller
+     # Đổi trả và bồi thường cho nhà bán mô hình NGON  ## Phạm vi và điều kiện đổi trả  - Áp dụng cho hàng hóa ngành NGON: FMCG và thực phẩm tươi sống. - Với thực phẩm tươi sống, sữa-trứng, hàng đông lạnh hoặc hàng có hạn sử dụng dưới 3 tháng: n
+  2. score=0.481538 doc_id=tiki-dropship-doi-tra-bao-hanh chunk_id=tiki-dropship-doi-tra-bao-hanh#0 audience=seller
+     # Quy trình đổi trả và bảo hành cho nhà bán Dropship  ## Điều kiện và trách nhiệm  - Nhà bán theo dõi và phản hồi tiến độ tại Seller Center > Đơn hàng > Đổi trả bảo hành. Khi nhà bán đồng ý đổi trả, Tiki tạo đơn C-return; nhà bán đóng gói, 
+  3. score=0.456909 doc_id=tiki-sd-doi-tra-bao-hanh chunk_id=tiki-sd-doi-tra-bao-hanh#0 audience=seller
+     # Quy trình đổi trả và bảo hành cho nhà bán SD  ## Điều kiện và trách nhiệm  - Với hàng đủ điều kiện đổi trả, nhà bán theo dõi và phản hồi tại Seller Center > Đơn hàng > Đổi trả bảo hành. Tiki tạo đơn đổi trả; nhà bán giao sản phẩm mới tươn
+
+Q4: Nhà bán FBT phải sắp xếp rút hàng trong thời hạn bao lâu?
+filter={}
+Gold: Trong 32 ngày làm việc kể từ khi phiếu trả hàng được tạo.
+Source: tiki-fbt-doi-tra-bao-hanh / Hàng đổi trả
+  1. score=0.652522 doc_id=tiki-faq-doi-tra-bao-hanh chunk_id=tiki-faq-doi-tra-bao-hanh#3 audience=seller
+     - Với C-return không thu hồi, nhà bán phản hồi trong **02 ngày làm việc** từ khi mã yêu cầu ghi nhận “Không thu hồi”. Với C-return có thu hồi, thời hạn là 02 ngày làm việc từ khi đơn được cập nhật “Đã hoàn hàng – Cần nhà bán phản hồi”. - Ti
+  2. score=0.647056 doc_id=tiki-faq-doi-tra-bao-hanh chunk_id=tiki-faq-doi-tra-bao-hanh#1 audience=seller
+     - Nếu nhà bán không xác nhận phương án xử lý trong **02 ngày làm việc**, Tiki xử lý theo yêu cầu khách hàng và có thể từ chối khiếu nại phát sinh sau thời hạn này. - Nhà bán cam kết thời gian bảo hành tối đa **30 ngày**, tính từ lúc nhận hà
+  3. score=0.565399 doc_id=tiki-doi-tra-365 chunk_id=tiki-doi-tra-365#0 audience=buyer
+     # Chương trình đổi trả 365 ngày  ## Phạm vi và thời điểm áp dụng  - Chương trình áp dụng từ **01/11/2023**. - Áp dụng cho ngành hàng **Điện gia dụng** và **Thiết bị số** thuộc nhà bán **Tiki Trading**. - Hình thức xử lý: **đổi trả hoặc hoàn
+
+Q5: Thời hạn đổi trả miễn phí là bao lâu?
+filter={"audience": "buyer"}
+Gold: 30 ngày đổi trả miễn phí; nguồn cũng nêu cam kết hoàn 200% nếu hàng giả.
+Source: tiki-doi-tra-30-ngay / Cam kết được công bố
+  1. score=0.594412 doc_id=tiki-doi-tra-365 chunk_id=tiki-doi-tra-365#0 audience=buyer
+     # Chương trình đổi trả 365 ngày  ## Phạm vi và thời điểm áp dụng  - Chương trình áp dụng từ **01/11/2023**. - Áp dụng cho ngành hàng **Điện gia dụng** và **Thiết bị số** thuộc nhà bán **Tiki Trading**. - Hình thức xử lý: **đổi trả hoặc hoàn
+  2. score=0.572190 doc_id=tiki-doi-tra-30-ngay chunk_id=tiki-doi-tra-30-ngay#0 audience=buyer
+     # Đổi trả miễn phí 30 ngày  ## Cam kết được công bố  Tiki công bố quyền lợi **30 ngày đổi trả** và đổi trả miễn phí. Trang cũng nêu cam kết hoàn **200%** nếu hàng giả.  > Nguồn không nêu điều kiện, ngoại lệ hoặc quy trình chi tiết; không su
+  3. score=0.172028 doc_id=tiki-doi-tra-365 chunk_id=tiki-doi-tra-365#1 audience=buyer
+     - Tiki không nhận đổi trả nếu trong vòng **7 ngày kể từ ngày nhận hàng**, sản phẩm được phát hiện lỗi kỹ thuật nhưng đã qua sửa chữa. Nếu sản phẩm đủ điều kiện, Tiki chỉ hỗ trợ bảo hành. - Khi đối chiếu hoặc khiếu nại, khách hàng cần chuẩn 
+  Without filter: tiki-doi-tra-365#0 (buyer, 0.594412), tiki-doi-tra-30-ngay#0 (buyer, 0.572190), tiki-faq-doi-tra-bao-hanh#5 (seller, 0.544625)
+
+Cache hits=27, misses=0; results: report/tiki/recursive
+CP5 complete: retrieval only; answer correctness and scoring belong to CP6.

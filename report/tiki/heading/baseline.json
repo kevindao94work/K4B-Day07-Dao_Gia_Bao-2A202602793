@@ -1,0 +1,91 @@
+{
+  "tiki-doi-tra-365": {
+    "fixed_size": {
+      "count": 2,
+      "avg_length": 462.5,
+      "chunks": [
+        "# Chương trình đổi trả 365 ngày\n\n## Phạm vi và thời điểm áp dụng\n\n- Chương trình áp dụng từ **01/11/2023**.\n- Áp dụng cho ngành hàng **Điện gia dụng** và **Thiết bị số** thuộc nhà bán **Tiki Trading**.\n- Hình thức xử lý: **đổi trả hoặc hoàn tiền**.\n\n## Điều kiện và quyền lợi\n\nVới đơn hàng được xác định có lỗi kỹ thuật do nhà sản xuất, khách hàng có thể được đổi trả miễn phí tận nhà hoặc hoàn tiền 100% trong vòng **365 ngày kể từ ngày đặt hàng**.\n\n## Ngoại lệ và bằng chứng\n\n- Tiki không nhận đổi trả nếu trong vòng **7 ngày kể từ ngày nhận hàng**, sản phẩm được phát hiện lỗi kỹ thuật nhưng đã qua sửa chữa. Nếu sản phẩm đủ điều kiện, Tiki chỉ hỗ trợ bảo hành.\n- Khi đối chiếu hoặc khiếu nại, khách hàng cần chuẩn bị video mở kiện từ bên ngoài đến khi kiểm tra sản phẩm; ảnh sản phẩm lỗi; ảnh tem",
+        "n khi kiểm tra sản phẩm; ảnh sản phẩm lỗi; ảnh tem kiện hiển thị mã đơn; và ảnh tình trạng hộp/thùng cùng sản phẩm bên trong."
+      ]
+    },
+    "by_sentences": {
+      "count": 3,
+      "avg_length": 290.3333333333333,
+      "chunks": [
+        "# Chương trình đổi trả 365 ngày\n\n## Phạm vi và thời điểm áp dụng\n\n- Chương trình áp dụng từ **01/11/2023**. - Áp dụng cho ngành hàng **Điện gia dụng** và **Thiết bị số** thuộc nhà bán **Tiki Trading**. - Hình thức xử lý: **đổi trả hoặc hoàn tiền**.",
+        "## Điều kiện và quyền lợi\n\nVới đơn hàng được xác định có lỗi kỹ thuật do nhà sản xuất, khách hàng có thể được đổi trả miễn phí tận nhà hoặc hoàn tiền 100% trong vòng **365 ngày kể từ ngày đặt hàng**. ## Ngoại lệ và bằng chứng\n\n- Tiki không nhận đổi trả nếu trong vòng **7 ngày kể từ ngày nhận hàng**, sản phẩm được phát hiện lỗi kỹ thuật nhưng đã qua sửa chữa. Nếu sản phẩm đủ điều kiện, Tiki chỉ hỗ trợ bảo hành.",
+        "- Khi đối chiếu hoặc khiếu nại, khách hàng cần chuẩn bị video mở kiện từ bên ngoài đến khi kiểm tra sản phẩm; ảnh sản phẩm lỗi; ảnh tem kiện hiển thị mã đơn; và ảnh tình trạng hộp/thùng cùng sản phẩm bên trong."
+      ]
+    },
+    "recursive": {
+      "count": 2,
+      "avg_length": 437.5,
+      "chunks": [
+        "# Chương trình đổi trả 365 ngày\n\n## Phạm vi và thời điểm áp dụng\n\n- Chương trình áp dụng từ **01/11/2023**.\n- Áp dụng cho ngành hàng **Điện gia dụng** và **Thiết bị số** thuộc nhà bán **Tiki Trading**.\n- Hình thức xử lý: **đổi trả hoặc hoàn tiền**.\n\n## Điều kiện và quyền lợi\n\nVới đơn hàng được xác định có lỗi kỹ thuật do nhà sản xuất, khách hàng có thể được đổi trả miễn phí tận nhà hoặc hoàn tiền 100% trong vòng **365 ngày kể từ ngày đặt hàng**.\n\n## Ngoại lệ và bằng chứng\n\n",
+        "- Tiki không nhận đổi trả nếu trong vòng **7 ngày kể từ ngày nhận hàng**, sản phẩm được phát hiện lỗi kỹ thuật nhưng đã qua sửa chữa. Nếu sản phẩm đủ điều kiện, Tiki chỉ hỗ trợ bảo hành.\n- Khi đối chiếu hoặc khiếu nại, khách hàng cần chuẩn bị video mở kiện từ bên ngoài đến khi kiểm tra sản phẩm; ảnh sản phẩm lỗi; ảnh tem kiện hiển thị mã đơn; và ảnh tình trạng hộp/thùng cùng sản phẩm bên trong."
+      ]
+    }
+  },
+  "tiki-dropship-doi-tra-bao-hanh": {
+    "fixed_size": {
+      "count": 3,
+      "avg_length": 690.3333333333334,
+      "chunks": [
+        "# Quy trình đổi trả và bảo hành cho nhà bán Dropship\n\n## Điều kiện và trách nhiệm\n\n- Nhà bán theo dõi và phản hồi tiến độ tại Seller Center > Đơn hàng > Đổi trả bảo hành. Khi nhà bán đồng ý đổi trả, Tiki tạo đơn C-return; nhà bán đóng gói, bàn giao sản phẩm mới tương tự hoặc Tiki hoàn tiền cho khách hàng.\n- Với hàng bảo hành, nhà bán thông báo cho Tiki và khách hàng, bảo hành trong **15–30 ngày**, rồi gửi trả hàng và chịu chi phí vận chuyển.\n- Khi từ chối đổi/trả/bảo hành, nhà bán phải gửi bằng chứng hợp lệ trong **02 ngày làm việc** kể từ khi nhận yêu cầu hoàn tiền hoặc nhận hàng từ đối tác vận chuyển. Bằng chứng có thể gồm biên bản bàn giao/đồng kiểm, ảnh hoặc video đóng gói/khui mở, hay biên bản thẩm định của hãng.\n- Nếu Tiki xác định lỗi do nhà bán, nhà bán buộc phải đồng ý xử lý. Nếu ",
+        "i do nhà bán, nhà bán buộc phải đồng ý xử lý. Nếu lỗi không do nhà bán, nhà bán đóng gói và tự gửi hàng lại cho khách hàng, chịu chi phí vận chuyển.\n\n## Luồng xử lý C-return\n\n1. Tiki tiếp nhận, kiểm tra yêu cầu và tạo C-return; đồng thời thông báo tại Seller Center và email của nhà bán.\n2. Với hàng không thể thu hồi, nhà bán kiểm tra và xác nhận giải pháp trên hệ thống. Với hàng thu hồi, Tiki thu hồi từ khách hàng và hoàn trả cho nhà bán.\n3. Nhà bán kiểm/đếm hàng, trao đổi với khách hàng nếu cần và phản hồi Đồng ý hoặc Từ chối.\n4. Khi đồng ý, Tiki xử lý hoàn tiền, tạo đơn đổi mới hoặc ghi nhận nhà bán chịu trách nhiệm bảo hành. Khi từ chối, Tiki yêu cầu nhà bán trả hàng cho khách hàng.\n\n## Thời hạn xử lý\n\n- Hàng **không thu hồi vật lý**: nhà bán xác nhận trong **02 ngày làm việc** từ khi y",
+        "à bán xác nhận trong **02 ngày làm việc** từ khi yêu cầu được tạo.\n- Hàng **có thu hồi vật lý**: Tiki trả hàng cho nhà bán trong **05 ngày làm việc** tùy vị trí; từ khi nhận hàng, nhà bán có **02 ngày làm việc** để phản hồi Đồng ý hoặc Từ chối.\n- Nếu nhà bán không phản hồi đúng hạn, Tiki chuyển C-return sang trạng thái nhà bán đồng ý và không xử lý các khiếu nại phát sinh sau đó.\n- Khi nhà bán từ chối, Tiki kiểm tra chứng cứ và phản hồi trong **03–05 ngày làm việc**."
+      ]
+    },
+    "by_sentences": {
+      "count": 7,
+      "avg_length": 280.42857142857144,
+      "chunks": [
+        "# Quy trình đổi trả và bảo hành cho nhà bán Dropship\n\n## Điều kiện và trách nhiệm\n\n- Nhà bán theo dõi và phản hồi tiến độ tại Seller Center > Đơn hàng > Đổi trả bảo hành. Khi nhà bán đồng ý đổi trả, Tiki tạo đơn C-return; nhà bán đóng gói, bàn giao sản phẩm mới tương tự hoặc Tiki hoàn tiền cho khách hàng. - Với hàng bảo hành, nhà bán thông báo cho Tiki và khách hàng, bảo hành trong **15–30 ngày**, rồi gửi trả hàng và chịu chi phí vận chuyển.",
+        "- Khi từ chối đổi/trả/bảo hành, nhà bán phải gửi bằng chứng hợp lệ trong **02 ngày làm việc** kể từ khi nhận yêu cầu hoàn tiền hoặc nhận hàng từ đối tác vận chuyển. Bằng chứng có thể gồm biên bản bàn giao/đồng kiểm, ảnh hoặc video đóng gói/khui mở, hay biên bản thẩm định của hãng. - Nếu Tiki xác định lỗi do nhà bán, nhà bán buộc phải đồng ý xử lý.",
+        "Nếu lỗi không do nhà bán, nhà bán đóng gói và tự gửi hàng lại cho khách hàng, chịu chi phí vận chuyển. ## Luồng xử lý C-return\n\n1. Tiki tiếp nhận, kiểm tra yêu cầu và tạo C-return; đồng thời thông báo tại Seller Center và email của nhà bán.",
+        "2. Với hàng không thể thu hồi, nhà bán kiểm tra và xác nhận giải pháp trên hệ thống. Với hàng thu hồi, Tiki thu hồi từ khách hàng và hoàn trả cho nhà bán.",
+        "3. Nhà bán kiểm/đếm hàng, trao đổi với khách hàng nếu cần và phản hồi Đồng ý hoặc Từ chối. 4.",
+        "Khi đồng ý, Tiki xử lý hoàn tiền, tạo đơn đổi mới hoặc ghi nhận nhà bán chịu trách nhiệm bảo hành. Khi từ chối, Tiki yêu cầu nhà bán trả hàng cho khách hàng. ## Thời hạn xử lý\n\n- Hàng **không thu hồi vật lý**: nhà bán xác nhận trong **02 ngày làm việc** từ khi yêu cầu được tạo.",
+        "- Hàng **có thu hồi vật lý**: Tiki trả hàng cho nhà bán trong **05 ngày làm việc** tùy vị trí; từ khi nhận hàng, nhà bán có **02 ngày làm việc** để phản hồi Đồng ý hoặc Từ chối. - Nếu nhà bán không phản hồi đúng hạn, Tiki chuyển C-return sang trạng thái nhà bán đồng ý và không xử lý các khiếu nại phát sinh sau đó. - Khi nhà bán từ chối, Tiki kiểm tra chứng cứ và phản hồi trong **03–05 ngày làm việc**."
+      ]
+    },
+    "recursive": {
+      "count": 3,
+      "avg_length": 657.0,
+      "chunks": [
+        "# Quy trình đổi trả và bảo hành cho nhà bán Dropship\n\n## Điều kiện và trách nhiệm\n\n- Nhà bán theo dõi và phản hồi tiến độ tại Seller Center > Đơn hàng > Đổi trả bảo hành. Khi nhà bán đồng ý đổi trả, Tiki tạo đơn C-return; nhà bán đóng gói, bàn giao sản phẩm mới tương tự hoặc Tiki hoàn tiền cho khách hàng.\n- Với hàng bảo hành, nhà bán thông báo cho Tiki và khách hàng, bảo hành trong **15–30 ngày**, rồi gửi trả hàng và chịu chi phí vận chuyển.\n- Khi từ chối đổi/trả/bảo hành, nhà bán phải gửi bằng chứng hợp lệ trong **02 ngày làm việc** kể từ khi nhận yêu cầu hoàn tiền hoặc nhận hàng từ đối tác vận chuyển. Bằng chứng có thể gồm biên bản bàn giao/đồng kiểm, ảnh hoặc video đóng gói/khui mở, hay biên bản thẩm định của hãng.\n",
+        "- Nếu Tiki xác định lỗi do nhà bán, nhà bán buộc phải đồng ý xử lý. Nếu lỗi không do nhà bán, nhà bán đóng gói và tự gửi hàng lại cho khách hàng, chịu chi phí vận chuyển.\n\n## Luồng xử lý C-return\n\n1. Tiki tiếp nhận, kiểm tra yêu cầu và tạo C-return; đồng thời thông báo tại Seller Center và email của nhà bán.\n2. Với hàng không thể thu hồi, nhà bán kiểm tra và xác nhận giải pháp trên hệ thống. Với hàng thu hồi, Tiki thu hồi từ khách hàng và hoàn trả cho nhà bán.\n3. Nhà bán kiểm/đếm hàng, trao đổi với khách hàng nếu cần và phản hồi Đồng ý hoặc Từ chối.\n4. Khi đồng ý, Tiki xử lý hoàn tiền, tạo đơn đổi mới hoặc ghi nhận nhà bán chịu trách nhiệm bảo hành. Khi từ chối, Tiki yêu cầu nhà bán trả hàng cho khách hàng.\n\n## Thời hạn xử lý\n\n",
+        "- Hàng **không thu hồi vật lý**: nhà bán xác nhận trong **02 ngày làm việc** từ khi yêu cầu được tạo.\n- Hàng **có thu hồi vật lý**: Tiki trả hàng cho nhà bán trong **05 ngày làm việc** tùy vị trí; từ khi nhận hàng, nhà bán có **02 ngày làm việc** để phản hồi Đồng ý hoặc Từ chối.\n- Nếu nhà bán không phản hồi đúng hạn, Tiki chuyển C-return sang trạng thái nhà bán đồng ý và không xử lý các khiếu nại phát sinh sau đó.\n- Khi nhà bán từ chối, Tiki kiểm tra chứng cứ và phản hồi trong **03–05 ngày làm việc**."
+      ]
+    }
+  },
+  "tiki-ngon-doi-tra-boi-thuong": {
+    "fixed_size": {
+      "count": 2,
+      "avg_length": 693.5,
+      "chunks": [
+        "# Đổi trả và bồi thường cho nhà bán mô hình NGON\n\n## Phạm vi và điều kiện đổi trả\n\n- Áp dụng cho hàng hóa ngành NGON: FMCG và thực phẩm tươi sống.\n- Với thực phẩm tươi sống, sữa-trứng, hàng đông lạnh hoặc hàng có hạn sử dụng dưới 3 tháng: nếu hàng hư hỏng do vận chuyển hoặc giao sai số lượng, khách hàng được từ chối tại thời điểm nhận hàng. Đối tác vận chuyển hoàn trả đơn về địa chỉ lấy hàng ban đầu; không áp dụng đổi/trả sau khi đã nhận hàng.\n- Với hàng có hạn sử dụng, có bao bì hoặc thực phẩm khô, khách hàng được yêu cầu đổi trả theo chính sách đổi trả của Tiki.\n\n## Quy trình đổi trả\n\n1. Tiki tiếp nhận, kiểm tra yêu cầu của khách hàng và tạo mã khiếu nại C-return.\n2. Tiki liên hệ nhà bán; nhà bán vào Seller Center > Đơn hàng > Đổi trả bảo hành để xác nhận thu hồi sản phẩm.\n3. Nhà bán tự ",
+        " hành để xác nhận thu hồi sản phẩm.\n3. Nhà bán tự thu hồi, phản hồi kết quả xử lý trả hàng/hoàn tiền và chịu trách nhiệm bồi thường cho khách hàng nếu có.\n\n## Khiếu nại và bồi thường hàng hoàn\n\nTrong vòng **24 giờ** từ thời điểm Tiki trả hàng cho nhà bán, nhà bán phải liên hệ Tiki qua tổng đài 19006035 hoặc `hotro@tiki.vn` khi hàng hoàn bị hư hỏng/bể vỡ do lỗi đối tác vận chuyển. Nhà bán xác nhận thông tin và giá trị bồi thường, đồng thời cung cấp hồ sơ/chứng từ qua Seller Center. Tiki thanh toán tiền bồi thường vào kỳ sao kê gần nhất sau khi nhà bán xác nhận đồng ý trên hệ thống."
+      ]
+    },
+    "by_sentences": {
+      "count": 5,
+      "avg_length": 266.2,
+      "chunks": [
+        "# Đổi trả và bồi thường cho nhà bán mô hình NGON\n\n## Phạm vi và điều kiện đổi trả\n\n- Áp dụng cho hàng hóa ngành NGON: FMCG và thực phẩm tươi sống. - Với thực phẩm tươi sống, sữa-trứng, hàng đông lạnh hoặc hàng có hạn sử dụng dưới 3 tháng: nếu hàng hư hỏng do vận chuyển hoặc giao sai số lượng, khách hàng được từ chối tại thời điểm nhận hàng. Đối tác vận chuyển hoàn trả đơn về địa chỉ lấy hàng ban đầu; không áp dụng đổi/trả sau khi đã nhận hàng.",
+        "- Với hàng có hạn sử dụng, có bao bì hoặc thực phẩm khô, khách hàng được yêu cầu đổi trả theo chính sách đổi trả của Tiki. ## Quy trình đổi trả\n\n1. Tiki tiếp nhận, kiểm tra yêu cầu của khách hàng và tạo mã khiếu nại C-return.",
+        "2. Tiki liên hệ nhà bán; nhà bán vào Seller Center > Đơn hàng > Đổi trả bảo hành để xác nhận thu hồi sản phẩm. 3.",
+        "Nhà bán tự thu hồi, phản hồi kết quả xử lý trả hàng/hoàn tiền và chịu trách nhiệm bồi thường cho khách hàng nếu có. ## Khiếu nại và bồi thường hàng hoàn\n\nTrong vòng **24 giờ** từ thời điểm Tiki trả hàng cho nhà bán, nhà bán phải liên hệ Tiki qua tổng đài 19006035 hoặc `hotro@tiki.vn` khi hàng hoàn bị hư hỏng/bể vỡ do lỗi đối tác vận chuyển. Nhà bán xác nhận thông tin và giá trị bồi thường, đồng thời cung cấp hồ sơ/chứng từ qua Seller Center.",
+        "Tiki thanh toán tiền bồi thường vào kỳ sao kê gần nhất sau khi nhà bán xác nhận đồng ý trên hệ thống."
+      ]
+    },
+    "recursive": {
+      "count": 2,
+      "avg_length": 668.5,
+      "chunks": [
+        "# Đổi trả và bồi thường cho nhà bán mô hình NGON\n\n## Phạm vi và điều kiện đổi trả\n\n- Áp dụng cho hàng hóa ngành NGON: FMCG và thực phẩm tươi sống.\n- Với thực phẩm tươi sống, sữa-trứng, hàng đông lạnh hoặc hàng có hạn sử dụng dưới 3 tháng: nếu hàng hư hỏng do vận chuyển hoặc giao sai số lượng, khách hàng được từ chối tại thời điểm nhận hàng. Đối tác vận chuyển hoàn trả đơn về địa chỉ lấy hàng ban đầu; không áp dụng đổi/trả sau khi đã nhận hàng.\n- Với hàng có hạn sử dụng, có bao bì hoặc thực phẩm khô, khách hàng được yêu cầu đổi trả theo chính sách đổi trả của Tiki.\n\n## Quy trình đổi trả\n\n",
+        "1. Tiki tiếp nhận, kiểm tra yêu cầu của khách hàng và tạo mã khiếu nại C-return.\n2. Tiki liên hệ nhà bán; nhà bán vào Seller Center > Đơn hàng > Đổi trả bảo hành để xác nhận thu hồi sản phẩm.\n3. Nhà bán tự thu hồi, phản hồi kết quả xử lý trả hàng/hoàn tiền và chịu trách nhiệm bồi thường cho khách hàng nếu có.\n\n## Khiếu nại và bồi thường hàng hoàn\n\nTrong vòng **24 giờ** từ thời điểm Tiki trả hàng cho nhà bán, nhà bán phải liên hệ Tiki qua tổng đài 19006035 hoặc `hotro@tiki.vn` khi hàng hoàn bị hư hỏng/bể vỡ do lỗi đối tác vận chuyển. Nhà bán xác nhận thông tin và giá trị bồi thường, đồng thời cung cấp hồ sơ/chứng từ qua Seller Center. Tiki thanh toán tiền bồi thường vào kỳ sao kê gần nhất sau khi nhà bán xác nhận đồng ý trên hệ thống."
+      ]
+    }
+  }
+}

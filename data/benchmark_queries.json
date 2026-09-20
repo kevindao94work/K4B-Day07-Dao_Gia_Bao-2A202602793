@@ -1,0 +1,47 @@
+[
+  {
+    "id": "Q1",
+    "query": "Chương trình đổi trả 365 ngày áp dụng cho ngành hàng và nhà bán nào?",
+    "gold_answer": "Áp dụng cho ngành Điện gia dụng và Thiết bị số thuộc nhà bán Tiki Trading.",
+    "source_doc_id": "tiki-doi-tra-365",
+    "source_heading": "Phạm vi và thời điểm áp dụng",
+    "evidence_quote": "Áp dụng cho ngành hàng **Điện gia dụng** và **Thiết bị số** thuộc nhà bán **Tiki Trading**.",
+    "metadata_filter": {"audience": "buyer"}
+  },
+  {
+    "id": "Q2",
+    "query": "Khi từ chối yêu cầu đổi trả hoặc bảo hành, nhà bán Dropship cần cung cấp những loại bằng chứng hợp lệ nào?",
+    "gold_answer": "Biên bản bàn giao/đồng kiểm; ảnh hoặc video đóng gói/khui mở; hoặc biên bản thẩm định của hãng.",
+    "source_doc_id": "tiki-dropship-doi-tra-bao-hanh",
+    "source_heading": "Điều kiện và trách nhiệm",
+    "evidence_quote": "Bằng chứng có thể gồm biên bản bàn giao/đồng kiểm, ảnh hoặc video đóng gói/khui mở, hay biên bản thẩm định của hãng.",
+    "metadata_filter": {}
+  },
+  {
+    "id": "Q3",
+    "query": "Nhà bán mô hình NGON cần làm gì khi hàng hoàn bị hư hỏng do lỗi vận chuyển?",
+    "gold_answer": "Liên hệ Tiki trong 24 giờ, xác nhận thông tin/giá trị bồi thường và cung cấp hồ sơ, chứng từ qua Seller Center.",
+    "source_doc_id": "tiki-ngon-doi-tra-boi-thuong",
+    "source_heading": "Khiếu nại và bồi thường hàng hoàn",
+    "evidence_quote": "Nhà bán xác nhận thông tin và giá trị bồi thường, đồng thời cung cấp hồ sơ/chứng từ qua Seller Center.",
+    "metadata_filter": {}
+  },
+  {
+    "id": "Q4",
+    "query": "Nhà bán FBT phải sắp xếp rút hàng trong thời hạn bao lâu?",
+    "gold_answer": "Trong 32 ngày làm việc kể từ khi phiếu trả hàng được tạo.",
+    "source_doc_id": "tiki-fbt-doi-tra-bao-hanh",
+    "source_heading": "Hàng đổi trả",
+    "evidence_quote": "Nhà bán phải theo dõi và sắp xếp rút hàng trong **32 ngày làm việc** kể từ khi phiếu trả hàng được tạo.",
+    "metadata_filter": {}
+  },
+  {
+    "id": "Q5",
+    "query": "Thời hạn đổi trả miễn phí là bao lâu?",
+    "gold_answer": "30 ngày đổi trả miễn phí; nguồn cũng nêu cam kết hoàn 200% nếu hàng giả.",
+    "source_doc_id": "tiki-doi-tra-30-ngay",
+    "source_heading": "Cam kết được công bố",
+    "evidence_quote": "Tiki công bố quyền lợi **30 ngày đổi trả** và đổi trả miễn phí. Trang cũng nêu cam kết hoàn **200%** nếu hàng giả.",
+    "metadata_filter": {"audience": "buyer"}
+  }
+]
